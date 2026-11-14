@@ -31,6 +31,16 @@ It identifies the intended reference inputs without redistributing those inputs.
 
 ## Dependencies and excluded property
 
+The native-unit tools and `tests/test_native_pipeline.py` were independently
+authored after studying public reconstruction methods in
+`momusdigital/fnv_decomp@91e1b6e8d8bb0f9a33e8cf88e77268757449e0a6` and f3decomp's
+public field manual. No third-party implementation, reconstructed declarations,
+game payloads or manifests were copied or translated into these tools. This is
+source-study provenance, not a clean-room claim or a grant of rights in those
+projects. The public guide removes private workspace paths. New tests use only
+independently authored synthetic COFF/PE fixtures; publishing these tools adds no
+verified game-function or whole-file claim to the frozen source snapshot above.
+
 `pefile==2024.8.26` is a separately installed third-party dependency distributed
 under its own MIT license. Capstone 5.0.3 is a separately installed disassembly
 dependency under its own BSD license and third-party notices. Their sources are

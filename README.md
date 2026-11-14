@@ -37,6 +37,11 @@ was 288 / 53,853.
 - OpenAI, Anthropic and DeepSeek drafting adapters, plus a source-and-hashes-only
   contribution exporter and a one-task Compose workflow.
 - Synthetic tests and hash/size-only reference pins; no original game files.
+- Offline evidence-gated native-unit manifests, original-site relocation
+  materialization, unmasked region/alias/EH comparison, context packets,
+  regression planning, persistent no-reset budget journals and union-byte
+  accounting. See [the native-unit guide](docs/NATIVE_UNIT_PIPELINE.md).
+  These tools do not compile, dispatch, promote or grant new matching credit.
 
 ## Local checks
 
