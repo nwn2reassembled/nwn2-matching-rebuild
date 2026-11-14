@@ -1,0 +1,87 @@
+name: nwn2-contributor
+
+x-offline: &offline
+  build:
+    context: .
+    target: runtime
+  platform: linux/amd64
+  user: "1000:1000"
+  network_mode: none
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  pids_limit: 256
+  mem_limit: 3g
+  cpus: 2
+  restart: "no"
+  tmpfs:
+    - /tmp:uid=1000,gid=1000,mode=0700,size=256m
+    # VC80 maps its intermediate file executable; Docker tmpfs defaults noexec.
+    # This is container-only scratch, not permission to run candidate programs.
+    - /work:uid=1000,gid=1000,mode=0700,size=2g,exec,nosuid,nodev
+
+services:
+  prepare:
+    <<: *offline
+    command: [python3, contributor-worker/workflow.py, prepare]
+    environment:
+      ACCEPT_INPUT_LICENSES: ${ACCEPT_INPUT_LICENSES:?Review licenses and set ACCEPT_INPUT_LICENSES=yes}
+      TASK_ID: ${TASK_ID:-rules-03a90}
+    volumes:
+      - type: bind
+        source: ./private/inputs
+        target: /inputs
+        read_only: true
+        bind:
+          create_host_path: false
+      - state:/state
+      - exchange:/exchange
+
+  draft:
+    build:
+      context: .
+      target: drafter
+    platform: linux/amd64
+    user: "1000:1000"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 256m
+    cpus: 1
+    restart: "no"
+    tmpfs:
+      - /tmp:uid=1000,gid=1000,mode=0700,size=32m
+    depends_on:
+      prepare:
+        condition: service_completed_successfully
+    command: [python3, contributor-worker/workflow.py, draft]
+    environment:
+      PROVIDER: ${PROVIDER:?Set PROVIDER to openai, anthropic or deepseek}
+      MODEL: ${MODEL:?Choose an explicit provider model}
+      MAX_TOKENS: ${MAX_TOKENS:-4096}
+      SEND_REFERENCE_TO_PROVIDER: ${SEND_REFERENCE_TO_PROVIDER:?Review provider data handling and set SEND_REFERENCE_TO_PROVIDER=yes}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      TASK_ID: ${TASK_ID:-rules-03a90}
+    volumes:
+      - exchange:/exchange
+
+  verify:
+    <<: *offline
+    depends_on:
+      draft:
+        condition: service_completed_successfully
+    command: [python3, contributor-worker/workflow.py, verify]
+    environment:
+      TASK_ID: ${TASK_ID:-rules-03a90}
+    volumes:
+      - state:/state:ro
+      - exchange:/exchange:ro
+      - output:/out
+
+volumes:
+  state:
+  exchange:
+  output:

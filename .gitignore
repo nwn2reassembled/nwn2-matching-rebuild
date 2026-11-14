@@ -1,0 +1,23 @@
+# Local proprietary inputs and generated diagnostic output must remain private.
+private/
+build/
+evidence/
+logs/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.exe
+*.dll
+*.obj
+*.o
+*.bin
+*.so
+*.zip
+# Local review archives and test environment files are never public inputs.
+*.tar

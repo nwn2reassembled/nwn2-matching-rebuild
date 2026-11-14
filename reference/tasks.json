@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "tasks": [
+    {
+      "id": "rules-03a90",
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3a90",
+      "size": 79,
+      "next_entry": "0x3ae0",
+      "boundary_evidence": "Curated native inventory entry 0x3a90; complete 79-byte instruction extent ending at 0x3adf, trailing int3 padding before next entry 0x3ae0 excluded. Local decode must confirm all paths stay inside extent and final return.",
+      "kind": "reconstruction",
+      "note": "Previously attempted privately without an exact match at queue publication. Contributor attempts are separately bounded; no automatic project credit or historical budget reset. Check for duplicate PRs before starting."
+    },
+    {
+      "id": "rules-smoke-04270",
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4270",
+      "size": 13,
+      "next_entry": "0x4280",
+      "boundary_evidence": "Previously verified complete 13-byte leaf extent from entry 0x4270 through return, excluding trailing padding before 0x4280.",
+      "kind": "known-solved-smoke",
+      "note": "Paid pipeline smoke replay only; already solved, never new reconstruction credit."
+    }
+  ]
+}

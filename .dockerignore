@@ -1,0 +1,16 @@
+**
+!Dockerfile
+!requirements.txt
+!tools/
+!tools/matching.py
+!tools/coff_object.py
+!contributor-worker/
+!contributor-worker/*.py
+!contributor-worker/tests/
+!contributor-worker/tests/*.py
+!tests/
+!tests/*.py
+!reference/
+!reference/pins.json
+!reference/toolchain.json
+!reference/tasks.json

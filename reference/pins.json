@@ -1,0 +1,8 @@
+{
+  "nwn2main.exe": {"size": 7057408, "sha256": "bd599aa8cb680e44516e18a8847f0edd201a331227af94baf20fc5f74ff605ae"},
+  "nwn2server.exe": {"size": 4636672, "sha256": "e2e601be2f0626b42bb01896b35d428cfe66eb2b223fd39ed2fd1a49e4f12e95"},
+  "NWN2RulesLib.dll": {"size": 819200, "sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d"},
+  "NWN2Toolset.dll": {"size": 5226496, "sha256": "750188dc4bd000d893c21a7f40ef66ad486958f1932ebce3e55915f41e98a50f"},
+  "OEIShared.dll": {"size": 958464, "sha256": "b690bf4d8f07c46289a745a10bf42729173c1457cb039df6e58745a20abecfa0"},
+  "NWN2GDF.dll": {"size": 1832200, "sha256": "c33f6f756718274a66e776afa71417c6f3ff58b7240ec6c4b0a457c540eb617a"}
+}
