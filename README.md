@@ -9,6 +9,16 @@ private research workspace. It is not a release of every reconstructed function.
 The bounded Compose contributor worker is described below; validation limits are
 recorded in the startup guide.
 
+## Reconstruction progress
+
+**288 / 53,853 known items exactly matched** — recorded snapshot, 14 November 2026.
+These are complete function matches across an unweighted worklist, not a percentage
+of rebuilt file bytes. **Whole-file identity: 0 / 6.**
+
+See [the project website](https://nwn2reassembled.fyi/#reconstruction) for newer
+aggregate snapshots, refreshed every three hours. This count covers the research
+project; it does not mean all matching source is included in this initial release.
+
 ## Included
 
 - Strict, unnormalized byte comparison and read-only PE inspection.
