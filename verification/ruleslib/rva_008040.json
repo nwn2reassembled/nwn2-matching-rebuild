@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x8040",
+  "size": 25,
+  "source": "src/ruleslib/matched/rva_008040.cpp",
+  "source_sha256": "e364854253c2a5da0f6a028244a6ba3ed8fddc44aa5b558acc2b9fa8281ac7a4",
+  "symbol": "?setByte@Legacy@@QAEXEE@Z",
+  "original_verification_receipt_sha256": "6bc51b8662c20a9fca2f57bda0393dfe07682ea3e2715a582c5eb3968244f04a",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 25,
+    "candidate_size": 25,
+    "reference_sha256": "4b4d2f0a44bb76e1ae7c3eca110c466b785a583040b6faf727fd23a77ddca7bf",
+    "candidate_sha256": "4b4d2f0a44bb76e1ae7c3eca110c466b785a583040b6faf727fd23a77ddca7bf",
+    "equal_bytes_at_same_offset": 25,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 25,
+    "candidate_size": 25,
+    "reference_sha256": "4b4d2f0a44bb76e1ae7c3eca110c466b785a583040b6faf727fd23a77ddca7bf",
+    "candidate_sha256": "4b4d2f0a44bb76e1ae7c3eca110c466b785a583040b6faf727fd23a77ddca7bf",
+    "equal_bytes_at_same_offset": 25,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

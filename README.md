@@ -4,20 +4,24 @@ Research toward rebuilding six pinned classic GOG Neverwinter Nights 2 files
 byte for byte from readable source. This is not a source port, a patched game,
 or a playable replacement. No complete artifact is claimed to match.
 
-This initial source release is a deliberately small, reviewed subset of the
-private research workspace. It is not a release of every reconstructed function.
+The current source snapshot publishes **357 verified functions in 355 source files**
+from `NWN2RulesLib.dll`, covering **8,543 exact instruction bytes**.
+Browse the [reconstructed C/C++ source](src/ruleslib/matched) and its
+[RVA-to-source index](src/ruleslib/matched/index.json).
 The bounded Compose contributor worker is described below; validation limits are
 recorded in the startup guide.
 
 ## Reconstruction progress
 
-**288 / 53,853 known items exactly matched** — recorded snapshot, 14 November 2026.
+**357 / 53,853 known items exactly matched** — published snapshot, 14 November 2026.
 These are complete function matches across an unweighted worklist, not a percentage
 of rebuilt file bytes. **Whole-file identity: 0 / 6.**
 
 See [the project website](https://nwn2reassembled.fyi/#reconstruction) for newer
 aggregate snapshots, refreshed every three hours. This count covers the research
-project; it does not mean all matching source is included in this initial release.
+project. This release includes source for all 357 functions in its frozen ledger;
+later private progress is not automatically published. The earlier README snapshot
+was 288 / 53,853.
 
 ## Included
 
@@ -26,7 +30,10 @@ project; it does not mean all matching source is included in this initial releas
   and rejection of unresolved overlapping relocations.
 - Three exploratory C implementations reconstructed from instruction-level
   analysis. They contain no embedded original instruction bytes. These particular
-  C files are not a claim of pinned-compiler exactness or complete-game behavior.
+   C files are not a claim of pinned-compiler exactness or complete-game behavior.
+- 355 unchanged matching C/C++ source files with 357 per-function hash-only
+  verification records. These are independent compilation probes, not a combined
+  DLL build; names/types are hypotheses. See the [source guide](src/ruleslib/matched/README.md).
 - OpenAI, Anthropic and DeepSeek drafting adapters, plus a source-and-hashes-only
   contribution exporter and a one-task Compose workflow.
 - Synthetic tests and hash/size-only reference pins; no original game files.

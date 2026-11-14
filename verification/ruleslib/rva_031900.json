@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x31900",
+  "size": 20,
+  "source": "src/ruleslib/matched/rva_031900.cpp",
+  "source_sha256": "0ed4fec15d00948597db5234ee23cdf68441fde98fd033daea1398c681f38116",
+  "symbol": "?GetValue@MyStruct@@SGGPAU1@E@Z",
+  "original_verification_receipt_sha256": "01d4ebd82ea3552fbe9eae6ad354e8b98eb364cdfd9b3818504e94f84b59d9ac",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 20,
+    "candidate_size": 20,
+    "reference_sha256": "8a48510c2934bb20864c3663152154b30ba2d3ee04dd9533201d978bab17fedb",
+    "candidate_sha256": "8a48510c2934bb20864c3663152154b30ba2d3ee04dd9533201d978bab17fedb",
+    "equal_bytes_at_same_offset": 20,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 20,
+    "candidate_size": 20,
+    "reference_sha256": "8a48510c2934bb20864c3663152154b30ba2d3ee04dd9533201d978bab17fedb",
+    "candidate_sha256": "8a48510c2934bb20864c3663152154b30ba2d3ee04dd9533201d978bab17fedb",
+    "equal_bytes_at_same_offset": 20,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

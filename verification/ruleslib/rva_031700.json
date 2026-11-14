@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x31700",
+  "size": 23,
+  "source": "src/ruleslib/matched/rva_031700.cpp",
+  "source_sha256": "0539d7c5e3b4bf8c4115862598bed1ec95468de9c80f41ea70e755e651c58794",
+  "symbol": "?readWord@TableReader@@SGGPBXE@Z",
+  "original_verification_receipt_sha256": "0ae22a271910b90381280270e509b12e88269fa40d6dab99d24148c282016520",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 23,
+    "candidate_size": 23,
+    "reference_sha256": "bd495e7e63ef3b344b46d35a70a97dccb24516ce50c03e283b2724e0ac5d7f7f",
+    "candidate_sha256": "bd495e7e63ef3b344b46d35a70a97dccb24516ce50c03e283b2724e0ac5d7f7f",
+    "equal_bytes_at_same_offset": 23,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 23,
+    "candidate_size": 23,
+    "reference_sha256": "bd495e7e63ef3b344b46d35a70a97dccb24516ce50c03e283b2724e0ac5d7f7f",
+    "candidate_sha256": "bd495e7e63ef3b344b46d35a70a97dccb24516ce50c03e283b2724e0ac5d7f7f",
+    "equal_bytes_at_same_offset": 23,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

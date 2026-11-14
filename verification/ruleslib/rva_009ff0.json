@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x9ff0",
+  "size": 23,
+  "source": "src/ruleslib/matched/rva_009ff0.cpp",
+  "source_sha256": "a5f1b8e9c02cc0d1f0dc0f3f8458bae52431f7f2dd5000ead6253fe98a3c89ba",
+  "symbol": "?func@Legacy@@QBEEXZ",
+  "original_verification_receipt_sha256": "f8204578ffe9d6319c2d33185ef53a6f88335f875ef2d61bd9bee00eb8ad48b3",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 23,
+    "candidate_size": 23,
+    "reference_sha256": "68bd5d488fc5630e35e8a34292b8f2a3d899d7d601df3e2e80b511a502c0b116",
+    "candidate_sha256": "68bd5d488fc5630e35e8a34292b8f2a3d899d7d601df3e2e80b511a502c0b116",
+    "equal_bytes_at_same_offset": 23,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 23,
+    "candidate_size": 23,
+    "reference_sha256": "68bd5d488fc5630e35e8a34292b8f2a3d899d7d601df3e2e80b511a502c0b116",
+    "candidate_sha256": "68bd5d488fc5630e35e8a34292b8f2a3d899d7d601df3e2e80b511a502c0b116",
+    "equal_bytes_at_same_offset": 23,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 3,
+    "repair_scope": "localized",
+    "verdict": "demonstrated-small-repair-salvage"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

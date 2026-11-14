@@ -1,0 +1,57 @@
+struct Legacy {
+    unsigned int field0;
+    unsigned char field1;
+    unsigned short field2;
+    unsigned int field3;
+    unsigned short field4;
+    unsigned int field5;
+    unsigned int field6;
+    unsigned int field7;
+    unsigned int field8;
+    unsigned int field9;
+    unsigned int field10;
+    unsigned int field11;
+    unsigned int field12;
+    unsigned int field13;
+    unsigned int field14;
+    unsigned int field15;
+    unsigned int field16;
+    unsigned int field17;
+    unsigned int field18;
+    unsigned int field19;
+    unsigned int field20;
+    unsigned int field21;
+    unsigned int field22;
+    unsigned short field23;
+    unsigned char field24;
+    Legacy* init();
+};
+
+Legacy* Legacy::init() {
+    field4 = 0xffffu;
+    field7 = 0;
+    field8 = 0;
+    field9 = 0;
+    field10 = 0;
+    field11 = 0;
+    field12 = 0;
+    field13 = 0;
+    field14 = 0;
+    field15 = 0;
+    field16 = 0;
+    field17 = 0;
+    field18 = 0;
+    field19 = 0;
+    field20 = 0;
+    field21 = 0;
+    field22 = 0;
+    field23 = 0xffffu;
+    field24 = 0;
+    field0 = 0xffffffffu;
+    field1 = 0;
+    field2 = 0xffffu;
+    field3 = 0xffffu;
+    field5 = 0;
+    field6 = 0;
+    return this;
+}

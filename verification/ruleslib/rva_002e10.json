@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x2e10",
+  "size": 102,
+  "source": "src/ruleslib/matched/rva_002e10.cpp",
+  "source_sha256": "c2e3c96c541f6d38b5fbd82351422dc2bca76d8dc6d0c1fc6b56dc90263a18cd",
+  "symbol": "?flag_or_default@PositiveTable12@@QBEIG@Z",
+  "original_verification_receipt_sha256": "194dee6df9bf9db4983c26d4f0e313ed3268655b785ac600d93e987eb5618155",
+  "compiler_version": null,
+  "compiler_arguments": null,
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 102,
+    "candidate_size": 102,
+    "reference_sha256": "bdcc412bd58cc9b4f3c2314b46413c49da164cb1457b70f14d256e3d1aa4c6cb",
+    "candidate_sha256": "bdcc412bd58cc9b4f3c2314b46413c49da164cb1457b70f14d256e3d1aa4c6cb",
+    "equal_bytes_at_same_offset": 102,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 102,
+    "candidate_size": 102,
+    "reference_sha256": "bdcc412bd58cc9b4f3c2314b46413c49da164cb1457b70f14d256e3d1aa4c6cb",
+    "candidate_sha256": "bdcc412bd58cc9b4f3c2314b46413c49da164cb1457b70f14d256e3d1aa4c6cb",
+    "equal_bytes_at_same_offset": 102,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "explicit address-bound relocation evaluation; not a linked PE",
+  "object_relocations": [
+    {
+      "offset": 54,
+      "type": "DIR32",
+      "symbol": "?positive_registry@@3PAUPositiveRegistry@@A",
+      "target_va": 269226180,
+      "site_va": 268447302,
+      "addend": 0,
+      "encoded_value": 269226180,
+      "provenance": "Pinned rules DLL: absolute global pointer operand at VA 0x10002e46; original HIGHLOW fixup at RVA 0x2e46"
+    },
+    {
+      "offset": 60,
+      "type": "REL32",
+      "symbol": "?lookup@PositiveRegistry@@QBEPAUPositiveRule@@G@Z",
+      "target_va": 268539440,
+      "site_va": 268447308,
+      "addend": 0,
+      "encoded_value": 92128,
+      "provenance": "Pinned rules DLL: E8 rel32 call at VA 0x10002e4b targets Ghidra entry FUN_10019630"
+    }
+  ],
+  "reference_relocations": [
+    {
+      "rva": 11846,
+      "type": 3,
+      "width": 4
+    }
+  ],
+  "provenance": {},
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

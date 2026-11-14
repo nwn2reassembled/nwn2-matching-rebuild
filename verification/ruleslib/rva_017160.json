@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x17160",
+  "size": 17,
+  "source": "src/ruleslib/matched/rva_017160.cpp",
+  "source_sha256": "6607c7c87315164ae617304a6ca3667c7b539c17b1a37f8f4ae8790597a48493",
+  "symbol": "?func@MyClass@@QAEHD@Z",
+  "original_verification_receipt_sha256": "aeac5536841ffa6246a8884c98dd4a8640dd2b2643fb662e3b1334f0cff9f9bc",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 17,
+    "candidate_size": 17,
+    "reference_sha256": "8bb00302e78374fedf2e59a1b0aa800f69efa9563ad9942d21f3b15c684430d8",
+    "candidate_sha256": "8bb00302e78374fedf2e59a1b0aa800f69efa9563ad9942d21f3b15c684430d8",
+    "equal_bytes_at_same_offset": 17,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 17,
+    "candidate_size": 17,
+    "reference_sha256": "8bb00302e78374fedf2e59a1b0aa800f69efa9563ad9942d21f3b15c684430d8",
+    "candidate_sha256": "8bb00302e78374fedf2e59a1b0aa800f69efa9563ad9942d21f3b15c684430d8",
+    "equal_bytes_at_same_offset": 17,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

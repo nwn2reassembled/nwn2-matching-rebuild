@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x33660",
+  "size": 15,
+  "source": "src/ruleslib/matched/rva_033660.cpp",
+  "source_sha256": "614ebf5ba8e2a15656450a6e2f1fec290cdaa0be262914f0063fef94c54fb305",
+  "symbol": "?getByteC0@MyClass@@QAEGPAX@Z",
+  "original_verification_receipt_sha256": "7c71a4a7fc0cdfc092e5e685bd5996c733d19cad93e7872c0492f53133786c0a",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 15,
+    "candidate_size": 15,
+    "reference_sha256": "2126b34e2527b27c93e59cc29a51d1f669a93cc2ed42b49a31dddd4c7316b561",
+    "candidate_sha256": "2126b34e2527b27c93e59cc29a51d1f669a93cc2ed42b49a31dddd4c7316b561",
+    "equal_bytes_at_same_offset": 15,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 15,
+    "candidate_size": 15,
+    "reference_sha256": "2126b34e2527b27c93e59cc29a51d1f669a93cc2ed42b49a31dddd4c7316b561",
+    "candidate_sha256": "2126b34e2527b27c93e59cc29a51d1f669a93cc2ed42b49a31dddd4c7316b561",
+    "equal_bytes_at_same_offset": 15,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

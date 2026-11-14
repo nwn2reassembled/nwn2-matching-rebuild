@@ -8,11 +8,20 @@ as recovered original game source. Synthetic tests construct their own PE/COFF
 fixtures, including a deliberately trivial NOP/NOP/NOP/RET sequence; that fixture
 is not extracted original game code. Test credentials are explicit dummy strings.
 
-The three `src/ruleslib/` implementations are readable, instruction-informed
+The `src/ruleslib/` implementations are readable, instruction-informed
 reconstruction hypotheses, with inferred types and descriptive names. Their
-comments identify the target RVAs. They contain arithmetic, field declarations
+index and verification records identify the target RVAs. They contain arithmetic, field declarations
 and ABI annotations, not copied instruction payloads. They are not clean-room
 implementations: original instructions were examined during the research.
+The `matched/` snapshot contains 355 byte-for-byte unchanged source files covering
+357 verified functions, including AI-drafted and parent-repaired candidates.
+Per-function records retain available repair/model provenance; missing historical
+fields are not evidence of unaided model success. Compiler flags/version fields
+may be null where the selected historical receipt did not record them directly.
+The source was not renamed internally, reformatted or stripped for publication.
+The normalized public receipts contain hashes and comparison metadata, not the
+original instruction payloads or private operational logs. They summarize historical
+verification, not a fresh compilation at publication time.
 No third-party license headers or attribution notices were found in these selected
 source files. That observation does not establish legal ownership or provide a
 jurisdiction-specific copyright, contractual or reverse-engineering clearance.

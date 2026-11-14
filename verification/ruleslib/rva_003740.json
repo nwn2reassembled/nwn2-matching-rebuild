@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x3740",
+  "size": 75,
+  "source": "src/ruleslib/matched/rva_003740.cpp",
+  "source_sha256": "0a85c10ea5f8d06bc12c511a95cac6e249006b956e23b0eedc02af06517210eb",
+  "symbol": "?removeWord@MyStruct@@QAEXPBX@Z",
+  "original_verification_receipt_sha256": "40a9ee05d1680e48d0f13506e83ea44a530858192ac8d7df6ea084ffc6b0150d",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 75,
+    "candidate_size": 75,
+    "reference_sha256": "c1834f67b5088da9648b0c72eda436ee55b4d4ac9fac3a85c546a8f30f46395f",
+    "candidate_sha256": "c1834f67b5088da9648b0c72eda436ee55b4d4ac9fac3a85c546a8f30f46395f",
+    "equal_bytes_at_same_offset": 75,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 75,
+    "candidate_size": 75,
+    "reference_sha256": "c1834f67b5088da9648b0c72eda436ee55b4d4ac9fac3a85c546a8f30f46395f",
+    "candidate_sha256": "c1834f67b5088da9648b0c72eda436ee55b4d4ac9fac3a85c546a8f30f46395f",
+    "equal_bytes_at_same_offset": 75,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 1,
+    "verdict": "demonstrated-small-repair-salvage"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

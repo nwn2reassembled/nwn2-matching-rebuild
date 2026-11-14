@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x19630",
+  "size": 54,
+  "source": "src/ruleslib/matched/rva_019630.cpp",
+  "source_sha256": "a9b933cec7efb53aceb61f785d274bea3e660a0143cdc886c63e3dc113bd9c4e",
+  "symbol": "?lookup@CheckedRegistry180@@QBEIG@Z",
+  "original_verification_receipt_sha256": "c683760e9173ef069d9c0f423c38dbd3f796bdbcef0e8abc2f0b596ab7ec40e9",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": null,
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 54,
+    "candidate_size": 54,
+    "reference_sha256": "1d8478cd5020d7b94077c1b3bd31ff5160110e42e6ffe51c16912548ce4591e5",
+    "candidate_sha256": "1d8478cd5020d7b94077c1b3bd31ff5160110e42e6ffe51c16912548ce4591e5",
+    "equal_bytes_at_same_offset": 54,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 54,
+    "candidate_size": 54,
+    "reference_sha256": "1d8478cd5020d7b94077c1b3bd31ff5160110e42e6ffe51c16912548ce4591e5",
+    "candidate_sha256": "1d8478cd5020d7b94077c1b3bd31ff5160110e42e6ffe51c16912548ce4591e5",
+    "equal_bytes_at_same_offset": 54,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {},
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

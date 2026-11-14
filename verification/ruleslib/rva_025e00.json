@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x25e00",
+  "size": 13,
+  "source": "src/ruleslib/matched/rva_025e00.cpp",
+  "source_sha256": "93c561d09ec3cf4f0e6c07a877540011b33dde129f29c20cca2fc0e0cc528de9",
+  "symbol": "?getField@MyClass@@SGIPBUMyStruct@@@Z",
+  "original_verification_receipt_sha256": "f17775fa83b234d42c801b40dcb242b8c82d3d92b5e4732d86557e3729eda8fd",
+  "compiler_version": "14.00.50727.762 (SP.050727-7600)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 13,
+    "candidate_size": 13,
+    "reference_sha256": "682acbc812d7a6b8fa24e9c37046025ca3ef6f22992390d93466d1b52e7fca94",
+    "candidate_sha256": "682acbc812d7a6b8fa24e9c37046025ca3ef6f22992390d93466d1b52e7fca94",
+    "equal_bytes_at_same_offset": 13,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 13,
+    "candidate_size": 13,
+    "reference_sha256": "682acbc812d7a6b8fa24e9c37046025ca3ef6f22992390d93466d1b52e7fca94",
+    "candidate_sha256": "682acbc812d7a6b8fa24e9c37046025ca3ef6f22992390d93466d1b52e7fca94",
+    "equal_bytes_at_same_offset": 13,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

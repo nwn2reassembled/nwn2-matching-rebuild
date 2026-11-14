@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x31920",
+  "size": 17,
+  "source": "src/ruleslib/matched/rva_031920.cpp",
+  "source_sha256": "2133283af10206aaab1395a71a2ff3da4cde818d8e11bb46d01cca2aecb0e94b",
+  "symbol": "?setField@Caller@@SGXPAUTarget@@E@Z",
+  "original_verification_receipt_sha256": "ec26cd660cae25c855fe647b670b8721abc7606b0a8676e628b9b9a09edaaa24",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 17,
+    "candidate_size": 17,
+    "reference_sha256": "00d49730ad30ccc6b0439ffb183ca8c09d181faf57f30d58eb367db7425c63c1",
+    "candidate_sha256": "00d49730ad30ccc6b0439ffb183ca8c09d181faf57f30d58eb367db7425c63c1",
+    "equal_bytes_at_same_offset": 17,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 17,
+    "candidate_size": 17,
+    "reference_sha256": "00d49730ad30ccc6b0439ffb183ca8c09d181faf57f30d58eb367db7425c63c1",
+    "candidate_sha256": "00d49730ad30ccc6b0439ffb183ca8c09d181faf57f30d58eb367db7425c63c1",
+    "equal_bytes_at_same_offset": 17,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

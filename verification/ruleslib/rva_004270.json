@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x4270",
+  "size": 13,
+  "source": "src/ruleslib/matched/rva_004270.c",
+  "source_sha256": "3848f18ca00ecb3627497823866e8a2645b22f93f319e8884cbbc844ae7eccad",
+  "symbol": null,
+  "original_verification_receipt_sha256": "61c1fd481e15416ad20d0820cd3fb919da93c09809bf4f8990d9203aad938567",
+  "compiler_version": "gcc (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)",
+  "compiler_arguments": [
+    "-m32",
+    "-O2",
+    "-fno-pic",
+    "-fno-pie",
+    "-fno-stack-protector",
+    "-fno-asynchronous-unwind-tables",
+    "-fno-unwind-tables"
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 13,
+    "candidate_size": 13,
+    "reference_sha256": "e8f608e7cb772bed076980bb5fd8c4dc78671cba561e3a047cb368869a6e0659",
+    "candidate_sha256": "e8f608e7cb772bed076980bb5fd8c4dc78671cba561e3a047cb368869a6e0659",
+    "equal_bytes_at_same_offset": 13,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": null,
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {},
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

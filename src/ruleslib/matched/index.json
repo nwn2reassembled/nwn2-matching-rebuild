@@ -1,0 +1,3223 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-14",
+  "verified_function_count": 357,
+  "published_source_file_count": 355,
+  "matched_instruction_bytes": 8543,
+  "whole_file_identity": false,
+  "functions": [
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x12b0",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_0012b0.cpp",
+      "source_sha256": "5e3dfe1cb480edffa5d0bca8f10cf74a6f7db1015d4f1cf97da6f3c3306de1c1",
+      "symbol": "?getByte@Legacy@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_0012b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x12d0",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_0012d0.cpp",
+      "source_sha256": "0be5a2cebfdb3aff736e6d76a30798022d09d89a9227acc3bf9533f54c456bff",
+      "symbol": "?getByte@Legacy@@QBEEE@Z",
+      "verification": "verification/ruleslib/rva_0012d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x12f0",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_0012f0.cpp",
+      "source_sha256": "9cb71a8280d4fe706f844caac35f82bf53f1d112be8dc105811b235c4c4367d6",
+      "symbol": "?get@Legacy@@QBEEE@Z",
+      "verification": "verification/ruleslib/rva_0012f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1310",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_001310.cpp",
+      "source_sha256": "e668c16a61cf7186c429abe5fa38446d1190cd8a88643f98e4ebedcc1bc98960",
+      "symbol": "?getByte@Legacy@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_001310.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1330",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_001330.cpp",
+      "source_sha256": "20fa68561ed5e20fb9d7bf3732e243d7e2f04f3aa4d3e9a2f60c5b30f0d5f3e7",
+      "symbol": "?lookup@Legacy@@QBEEE@Z",
+      "verification": "verification/ruleslib/rva_001330.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1350",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_001350.cpp",
+      "source_sha256": "c59b4cd95b63095091c6b49291b6e6718930891130cef8bfc025dd4b5165e410",
+      "symbol": "?func@MyClass@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_001350.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1370",
+      "size": 102,
+      "source": "src/ruleslib/matched/rva_001370.cpp",
+      "source_sha256": "9b99fe2e66ff769c6497861cbecdb9a5fa2ff4919d25466514abb2d3619b3248",
+      "symbol": "?foo@Legacy@@QAEEEE@Z",
+      "verification": "verification/ruleslib/rva_001370.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x13e0",
+      "size": 56,
+      "source": "src/ruleslib/matched/rva_0013e0.cpp",
+      "source_sha256": "d636dac9127c96cd3e32af9a9d424782678efe484ec361be969f7fadcd043cb4",
+      "symbol": "?method@Legacy@@QAEEEE@Z",
+      "verification": "verification/ruleslib/rva_0013e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1420",
+      "size": 58,
+      "source": "src/ruleslib/matched/rva_001420.cpp",
+      "source_sha256": "fe68a5707a596bf150ddf2e6554b1642b6f3b6aaa8e25f262c10a2ad0cc0b234",
+      "symbol": "?lookup@Legacy@@QAEEEE@Z",
+      "verification": "verification/ruleslib/rva_001420.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2d30",
+      "size": 37,
+      "source": "src/ruleslib/matched/rva_002d30.cpp",
+      "source_sha256": "64e5fc02db1b88dc22c6061b9ecbf262acc558537234f9cdceac203658a9fe19",
+      "symbol": "?bounded_at@ElementTable12@@QBEIG@Z",
+      "verification": "verification/ruleslib/rva_002d30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2d60",
+      "size": 83,
+      "source": "src/ruleslib/matched/rva_002d60.cpp",
+      "source_sha256": "b8b5c55a3e3656a18a4e1c8b3febef6b38039df54429f5cce5ca12d34a83eac6",
+      "symbol": "?find_unflagged@ElementTableSearch12@@QBEEF@Z",
+      "verification": "verification/ruleslib/rva_002d60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2dc0",
+      "size": 80,
+      "source": "src/ruleslib/matched/rva_002dc0.cpp",
+      "source_sha256": "8edf9763c18769b6e86c201e93f40cd2f7e78e22a8dc65746b7949a9510d1929",
+      "symbol": "?flag_bit_one@ElementTableFlag12@@QBEIF@Z",
+      "verification": "verification/ruleslib/rva_002dc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2e10",
+      "size": 102,
+      "source": "src/ruleslib/matched/rva_002e10.cpp",
+      "source_sha256": "c2e3c96c541f6d38b5fbd82351422dc2bca76d8dc6d0c1fc6b56dc90263a18cd",
+      "symbol": "?flag_or_default@PositiveTable12@@QBEIG@Z",
+      "verification": "verification/ruleslib/rva_002e10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2e80",
+      "size": 133,
+      "source": "src/ruleslib/matched/rva_002e80.cpp",
+      "source_sha256": "4d13fbeccf87286a2a88f3c9dd99e1952b38b72ade1d5ca6a4f39988c1cdcba9",
+      "symbol": "?find_details@DetailTable12@@QBEIFPAEPAG@Z",
+      "verification": "verification/ruleslib/rva_002e80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2f10",
+      "size": 74,
+      "source": "src/ruleslib/matched/rva_002f10.cpp",
+      "source_sha256": "6804634a0b0304a48349299a3320ac74fc9495dd138451962ca3b5f7a00f00f3",
+      "symbol": "?find_value@ElementTableFallback12@@QBEEF@Z",
+      "verification": "verification/ruleslib/rva_002f10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2f60",
+      "size": 91,
+      "source": "src/ruleslib/matched/rva_002f60.cpp",
+      "source_sha256": "00b33326295ec51bbe913fbb5f7d915e04e75f532000be93eebcd611a7b6175e",
+      "symbol": "?available@RegistryFirstTable12@@QBEIG@Z",
+      "verification": "verification/ruleslib/rva_002f60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x2fc0",
+      "size": 228,
+      "source": "src/ruleslib/matched/rva_002fc0.cpp",
+      "source_sha256": "f4b88796119767d94571d97c975ef4fe82d46128d0756cc48be5f32b065f355a",
+      "symbol": "?accepts@MatchedPredicates@@QBEIEE@Z",
+      "verification": "verification/ruleslib/rva_002fc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30b0",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_0030b0.cpp",
+      "source_sha256": "de866f721e299046267a79e97d12648d002731ba9b6d7602503fa0c8f39a4ee6",
+      "symbol": "?active@SharedPredicates@@QBE_NXZ",
+      "verification": "verification/ruleslib/rva_0030b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30c0",
+      "size": 53,
+      "source": "src/ruleslib/matched/rva_0030b0.cpp",
+      "source_sha256": "de866f721e299046267a79e97d12648d002731ba9b6d7602503fa0c8f39a4ee6",
+      "symbol": "?scheduled@SharedPredicates@@QBE_NE@Z",
+      "verification": "verification/ruleslib/rva_0030c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3190",
+      "size": 38,
+      "source": "src/ruleslib/matched/rva_003190.cpp",
+      "source_sha256": "dd70d4723f4a61f3fcea9fc4b0e57696f243421c348fbd2729ed9e0986825ed3",
+      "symbol": "?compute@Legacy@@QAEHG@Z",
+      "verification": "verification/ruleslib/rva_003190.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3670",
+      "size": 91,
+      "source": "src/ruleslib/matched/rva_003670.cpp",
+      "source_sha256": "e19dade7addfab92431724c34332534ca9d37cb903cd41fb2a41a929fb879c94",
+      "symbol": "?find@MyStruct@@QBEHH@Z",
+      "verification": "verification/ruleslib/rva_003670.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3740",
+      "size": 75,
+      "source": "src/ruleslib/matched/rva_003740.cpp",
+      "source_sha256": "0a85c10ea5f8d06bc12c511a95cac6e249006b956e23b0eedc02af06517210eb",
+      "symbol": "?removeWord@MyStruct@@QAEXPBX@Z",
+      "verification": "verification/ruleslib/rva_003740.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x37b0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_0037b0.cpp",
+      "source_sha256": "87c3b818c7a2c4f9f9953ff3ca17e408b6d0f2b431ed3bc205832c84e1d555a4",
+      "symbol": "?clear@Legacy@@QAEXXZ",
+      "verification": "verification/ruleslib/rva_0037b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3bc0",
+      "size": 38,
+      "source": "src/ruleslib/matched/rva_003bc0.cpp",
+      "source_sha256": "0563ecf79030a17c72e15d03f486c9f6bf9fa49006f17173fb66f7456acf16b9",
+      "symbol": "?findIndex@Legacy@@QAEEG@Z",
+      "verification": "verification/ruleslib/rva_003bc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4010",
+      "size": 25,
+      "source": "src/ruleslib/matched/rva_004010.cpp",
+      "source_sha256": "2c4ef1c7186d214216ea051bc676ec3666750ba19b0a580be1fa71a16c8201af",
+      "symbol": "?check@Legacy@@QBEHXZ",
+      "verification": "verification/ruleslib/rva_004010.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4030",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_004030.cpp",
+      "source_sha256": "061ae10b1cb32e884073d4bc6b6bd809893cc4ff4277dabc4fad83cf18e01f50",
+      "symbol": "?clear@MyStruct@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_004030.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4170",
+      "size": 25,
+      "source": "src/ruleslib/matched/rva_004170.cpp",
+      "source_sha256": "96d71656f9f347836646c96e965a2b83e7acfbd846646b3179ff495d5a3c55b2",
+      "symbol": "?getValue@Legacy@@QAEFH@Z",
+      "verification": "verification/ruleslib/rva_004170.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4270",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_004270.c",
+      "source_sha256": "3848f18ca00ecb3627497823866e8a2645b22f93f319e8884cbbc844ae7eccad",
+      "symbol": null,
+      "verification": "verification/ruleslib/rva_004270.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4670",
+      "size": 35,
+      "source": "src/ruleslib/matched/rva_004670.cpp",
+      "source_sha256": "6d4acbbd7d1466542d8e27ec42abe152b127ec40b8d2447ecfd3c24334870fc9",
+      "symbol": "?func@MyClass@@QAEFE@Z",
+      "verification": "verification/ruleslib/rva_004670.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x46a0",
+      "size": 38,
+      "source": "src/ruleslib/matched/rva_0046a0.cpp",
+      "source_sha256": "587a858f3a6d35b1692733f549d6807c76227c367c2c5f742c0d7739ddd02e8e",
+      "symbol": "?findFirstSetBit@LegacyObj@@QBEIXZ",
+      "verification": "verification/ruleslib/rva_0046a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4800",
+      "size": 31,
+      "source": "src/ruleslib/matched/rva_004800.cpp",
+      "source_sha256": "2c958b51b59db13ff7d50b3cdf2fce9499f352d812c8b35a94cea10afefff2b3",
+      "symbol": "?method@MyStruct@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_004800.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4820",
+      "size": 35,
+      "source": "src/ruleslib/matched/rva_004820.cpp",
+      "source_sha256": "8dd8fdfcf42bd3b76676a57b2c0811aee2ecab14800d1305574ee430dae4d04f",
+      "symbol": "?foo@MyClass@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_004820.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x5230",
+      "size": 30,
+      "source": "src/ruleslib/matched/rva_005230.cpp",
+      "source_sha256": "357add650fdd4668875ced4820e8da0d605074e37dc7bd25fd3c4fa9dc449702",
+      "symbol": "?func@MyObj@@UBEHXZ",
+      "verification": "verification/ruleslib/rva_005230.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x5250",
+      "size": 40,
+      "source": "src/ruleslib/matched/rva_005250.cpp",
+      "source_sha256": "adbaf6e368a9f786298483c994782a37ea06e022bfc2a48193e0a7eadfe8893d",
+      "symbol": "?check@Legacy@@QBEHXZ",
+      "verification": "verification/ruleslib/rva_005250.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x5280",
+      "size": 40,
+      "source": "src/ruleslib/matched/rva_005280.cpp",
+      "source_sha256": "6d85847d72833b5abe0e16fcb5ac18e9572fbe97cfeef1365fe4852ad1cdf29a",
+      "symbol": "?init@Legacy@@QAEPAV1@XZ",
+      "verification": "verification/ruleslib/rva_005280.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x52b0",
+      "size": 33,
+      "source": "src/ruleslib/matched/rva_0052b0.cpp",
+      "source_sha256": "5b590992ee7619abcb6233879f31e5d51d5134d37bb32b20772f8b7f32e6c38e",
+      "symbol": "?compute@MyClass@@QBEHH@Z",
+      "verification": "verification/ruleslib/rva_0052b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x6930",
+      "size": 50,
+      "source": "src/ruleslib/matched/rva_006930.cpp",
+      "source_sha256": "b6d95b9f387f422d06277211ed898fdc9352fc8ce73ba6d9b6517d41e0a41096",
+      "symbol": "??0MyStruct@@QAE@ABU0@@Z",
+      "verification": "verification/ruleslib/rva_006930.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x7250",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_007250.cpp",
+      "source_sha256": "97dccecffc7639423104546624c0410b3984619e0726543d0c79414d5ab44496",
+      "symbol": "?init@Legacy@@QAEXXZ",
+      "verification": "verification/ruleslib/rva_007250.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x7d80",
+      "size": 60,
+      "source": "src/ruleslib/matched/rva_007d80.cpp",
+      "source_sha256": "22401edefbc2c3e4de62988f44b9f2a94e3e7eaad919712a118e3fa1f2c66e9b",
+      "symbol": "?method@MyClass@@QAEHG@Z",
+      "verification": "verification/ruleslib/rva_007d80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x7e30",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_007e30.cpp",
+      "source_sha256": "3ebbb6039d6580c549e2c5b7c6ea4855c5fb840627d95989af77eebf4f8878d8",
+      "symbol": "?init@MyClass@@QAEPAV1@XZ",
+      "verification": "verification/ruleslib/rva_007e30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x7e40",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_007e40.cpp",
+      "source_sha256": "f1021cd455ede1778e31cf17becd6a7c8444530966ad8b781c27c244483be309",
+      "symbol": "?init@MyStruct@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_007e40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8020",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_008020.cpp",
+      "source_sha256": "24f4377459af52cfbb7d246eaee9dbfe80a350e44ad7964a296e1ae04f249d09",
+      "symbol": "?getByte@MyClass@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_008020.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8040",
+      "size": 25,
+      "source": "src/ruleslib/matched/rva_008040.cpp",
+      "source_sha256": "e364854253c2a5da0f6a028244a6ba3ed8fddc44aa5b558acc2b9fa8281ac7a4",
+      "symbol": "?setByte@Legacy@@QAEXEE@Z",
+      "verification": "verification/ruleslib/rva_008040.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8060",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_008060.cpp",
+      "source_sha256": "2aec8dfaa0e0a2c1c00f478623df2f1db90e974d29b0379436d7f04894489557",
+      "symbol": "?foo@Legacy@@QAEXE@Z",
+      "verification": "verification/ruleslib/rva_008060.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8080",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_008080.cpp",
+      "source_sha256": "b0aee70dee9af3db8ea0f760691166202eb2b9e3e98f2e6eb7581423b6da34e7",
+      "symbol": "?incrementCounter@MyClass@@QAEXE@Z",
+      "verification": "verification/ruleslib/rva_008080.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x80a0",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_0080a0.cpp",
+      "source_sha256": "82c8a3d4cf9dc5a088cb3b8bb43d2830c6e67433df0d1c584c78c73b825b39ec",
+      "symbol": "?setByte@Legacy@@QAEXE@Z",
+      "verification": "verification/ruleslib/rva_0080a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8170",
+      "size": 31,
+      "source": "src/ruleslib/matched/rva_008170.cpp",
+      "source_sha256": "c7410537fec377ef2ce3118b44b0aff92a31dbbee890463533683153814eebf5",
+      "symbol": "?legacyFunc@LegacyObject@@QBEHXZ",
+      "verification": "verification/ruleslib/rva_008170.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x8c10",
+      "size": 21,
+      "source": "src/ruleslib/matched/rva_008c10.cpp",
+      "source_sha256": "c9942c3c01ad694c0408ae36a4b08316fe706b2d6edbedb560654577b2713e31",
+      "symbol": "?func@MyClass@@QAEIE@Z",
+      "verification": "verification/ruleslib/rva_008c10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x9a20",
+      "size": 31,
+      "source": "src/ruleslib/matched/rva_009a20.cpp",
+      "source_sha256": "deb86e1636566d58e5dda7042d9eb8183e6075b4d19e66e9919cd6d0a1b8a6b0",
+      "symbol": "?method@MyClass@@QAEHPBUArg@@@Z",
+      "verification": "verification/ruleslib/rva_009a20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x9ff0",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_009ff0.cpp",
+      "source_sha256": "a5f1b8e9c02cc0d1f0dc0f3f8458bae52431f7f2dd5000ead6253fe98a3c89ba",
+      "symbol": "?func@Legacy@@QBEEXZ",
+      "verification": "verification/ruleslib/rva_009ff0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xa010",
+      "size": 27,
+      "source": "src/ruleslib/matched/rva_00a010.cpp",
+      "source_sha256": "4995852d8085d2141577b88651874e0c763e63d5319febc305843fe2296f9543",
+      "symbol": "?legacyFunc@Legacy@@QAEEXZ",
+      "verification": "verification/ruleslib/rva_00a010.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xa5c0",
+      "size": 35,
+      "source": "src/ruleslib/matched/rva_00a5c0.cpp",
+      "source_sha256": "f42406fb2c93d81cf2d79f21dd8570552fd842c46318f1ef60c7f26db6420817",
+      "symbol": "?compute@Legacy@@QAEHE@Z",
+      "verification": "verification/ruleslib/rva_00a5c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xa5f0",
+      "size": 40,
+      "source": "src/ruleslib/matched/rva_00a5f0.cpp",
+      "source_sha256": "459ba3f568da30104e411ca701e457d47b8322ee15bcfa5939f8b3be01da936c",
+      "symbol": "?getElement@Legacy@@QAEPAXH@Z",
+      "verification": "verification/ruleslib/rva_00a5f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xa660",
+      "size": 44,
+      "source": "src/ruleslib/matched/rva_00a660.cpp",
+      "source_sha256": "3ca7fb1ca68c29fb6c4c70e0534c7d983e23cbd2845e0e543c5a2d1d7d73a69f",
+      "symbol": "?getWord@Container@@QAEGEE@Z",
+      "verification": "verification/ruleslib/rva_00a660.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xa690",
+      "size": 68,
+      "source": "src/ruleslib/matched/rva_00a690.cpp",
+      "source_sha256": "15278bbf4f4bfb8d9dad2a6e6e255afa741001181f46136ccd7a50a7487655f6",
+      "symbol": "?func@MyLegacy@@QAEHEG@Z",
+      "verification": "verification/ruleslib/rva_00a690.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xb720",
+      "size": 27,
+      "source": "src/ruleslib/matched/rva_00b720.cpp",
+      "source_sha256": "c3e0ae422436fa59dad6d6aac16fe0eca569d770a439ab73cf7dd4af4758e41e",
+      "symbol": "?Get@Legacy@@QBEGG@Z",
+      "verification": "verification/ruleslib/rva_00b720.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xb740",
+      "size": 27,
+      "source": "src/ruleslib/matched/rva_00b740.cpp",
+      "source_sha256": "228fcee9d0241935336ff316ad70f309edfdeb1fa049be52f4a1ea566f63cdc0",
+      "symbol": "?get@Legacy@@QAEFG@Z",
+      "verification": "verification/ruleslib/rva_00b740.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xc020",
+      "size": 20,
+      "source": "src/ruleslib/matched/rva_00c020.cpp",
+      "source_sha256": "43fe848f4c248a02fb5ff6d190df067b31e006205a0b58916e2479e373be5dd8",
+      "symbol": "?setZeroAtIndex@MyClass@@QAEXG@Z",
+      "verification": "verification/ruleslib/rva_00c020.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xe710",
+      "size": 88,
+      "source": "src/ruleslib/matched/rva_00e710.cpp",
+      "source_sha256": "47eea0b6fc22b907ffa8936db40999be5341b1055ac39bc8a921f64f4b149067",
+      "symbol": "?compute@MyStruct@@QBEEXZ",
+      "verification": "verification/ruleslib/rva_00e710.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xe950",
+      "size": 24,
+      "source": "src/ruleslib/matched/rva_00e950.cpp",
+      "source_sha256": "a0f2282765f65659bb9c0ac7088aace75278dc99f11c2706790128e25236c09b",
+      "symbol": "?getValue@MyClass@@QBEIE@Z",
+      "verification": "verification/ruleslib/rva_00e950.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xf080",
+      "size": 51,
+      "source": "src/ruleslib/matched/rva_00f080.cpp",
+      "source_sha256": "808ffaad1680af56a15320c99f554c6df602daf7d6fb76b3d758e3bf3dfb5a49",
+      "symbol": "?contains@MyContainer@@QBE_NPBG@Z",
+      "verification": "verification/ruleslib/rva_00f080.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0xf230",
+      "size": 50,
+      "source": "src/ruleslib/matched/rva_00f230.cpp",
+      "source_sha256": "5b7003844b8394daed08de68f2d0d8c4f5fd8bea0b5b37e23470b1ad4475e96a",
+      "symbol": "?find@Legacy@@QBEHG@Z",
+      "verification": "verification/ruleslib/rva_00f230.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x151d0",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_002d30.cpp",
+      "source_sha256": "64e5fc02db1b88dc22c6061b9ecbf262acc558537234f9cdceac203658a9fe19",
+      "symbol": "_ability_modifier",
+      "verification": "verification/ruleslib/rva_0151d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x15d70",
+      "size": 66,
+      "source": "src/ruleslib/matched/rva_015d70.cpp",
+      "source_sha256": "e7b498d61866a67f62087736616590d26efeafd7b7ddc51c9ff2dc24c50564bc",
+      "symbol": "?find@Legacy@@QAEHG@Z",
+      "verification": "verification/ruleslib/rva_015d70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x161d0",
+      "size": 24,
+      "source": "src/ruleslib/matched/rva_0161d0.cpp",
+      "source_sha256": "2bd744273fe8f21e67f318a7379e5afb1c6d1a3aefc158ac4776549cb9a6db86",
+      "symbol": "?lookup@MyClass@@QAEFI@Z",
+      "verification": "verification/ruleslib/rva_0161d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x161f0",
+      "size": 46,
+      "source": "src/ruleslib/matched/rva_0161f0.cpp",
+      "source_sha256": "18bedecc3d8ee7e21184d80d05b71aad3756898fa85c49b4a3b61cfadc43f58c",
+      "symbol": "?checkIndex@MyClass@@QAEHI@Z",
+      "verification": "verification/ruleslib/rva_0161f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x16220",
+      "size": 46,
+      "source": "src/ruleslib/matched/rva_016220.cpp",
+      "source_sha256": "a992354eab32225a8fc6fe614be47df816c2c386d243fe2b171d186314f55b66",
+      "symbol": "?func@MyClass@@QBEHI@Z",
+      "verification": "verification/ruleslib/rva_016220.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x16250",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_016250.cpp",
+      "source_sha256": "eff7344035cd2db830b4e80e3dbf24bdd2e44586f7a4edb605d827a59dbb035e",
+      "symbol": "?init@MyStruct@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_016250.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x17160",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_017160.cpp",
+      "source_sha256": "6607c7c87315164ae617304a6ca3667c7b539c17b1a37f8f4ae8790597a48493",
+      "symbol": "?func@MyClass@@QAEHD@Z",
+      "verification": "verification/ruleslib/rva_017160.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x194a0",
+      "size": 106,
+      "source": "src/ruleslib/matched/rva_0194a0.cpp",
+      "source_sha256": "f6bec2bbd24154de924e34b1ee6f7be8be289972429a14e08653b61714cb58a1",
+      "symbol": "?process@Legacy@@QAEII@Z",
+      "verification": "verification/ruleslib/rva_0194a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19630",
+      "size": 54,
+      "source": "src/ruleslib/matched/rva_019630.cpp",
+      "source_sha256": "a9b933cec7efb53aceb61f785d274bea3e660a0143cdc886c63e3dc113bd9c4e",
+      "symbol": "?lookup@CheckedRegistry180@@QBEIG@Z",
+      "verification": "verification/ruleslib/rva_019630.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19670",
+      "size": 37,
+      "source": "src/ruleslib/matched/rva_019670.cpp",
+      "source_sha256": "d6f225fc0815f3082791e0f18257032ab63d324e546a6e0e67d1af0f3952f333",
+      "symbol": "?unchecked_at@RuleRegistry@@QBEPAURuleEntry180@@G@Z",
+      "verification": "verification/ruleslib/rva_019670.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19830",
+      "size": 43,
+      "source": "src/ruleslib/matched/rva_019830.cpp",
+      "source_sha256": "94d82991889c3432f0625519dc8f3f57688002582041246d52ffe8e53f73ce64",
+      "symbol": "?getItem@Legacy@@QAEPAURecord@@G@Z",
+      "verification": "verification/ruleslib/rva_019830.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19860",
+      "size": 28,
+      "source": "src/ruleslib/matched/rva_019860.cpp",
+      "source_sha256": "7423f6b17bfe1e5056cdbb9e01d39ffcf00400bbcc3637de8c568b1d31cb2bb1",
+      "symbol": "?getByte@Legacy@@QBEIHH@Z",
+      "verification": "verification/ruleslib/rva_019860.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19a50",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_019a50.cpp",
+      "source_sha256": "61e4a173f2023c4e5ce8b5c0c64c72a5da7afc62b28080af5bab3c58a0002c8d",
+      "symbol": "?computeLog2@MyClass@@QAEII@Z",
+      "verification": "verification/ruleslib/rva_019a50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19b80",
+      "size": 30,
+      "source": "src/ruleslib/matched/rva_019b80.cpp",
+      "source_sha256": "824e842cfa4e31ecc649902782523b5bfa4f040761ca4502616773b233875726",
+      "symbol": "?setByte@MyStruct@@QAEXE@Z",
+      "verification": "verification/ruleslib/rva_019b80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19ba0",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_019ba0.cpp",
+      "source_sha256": "a5407f71b6a0ca1361c7de45b5f642346d46f44c1bef88d0e78b2c53c5e8b3c4",
+      "symbol": "?func@Legacy@@QAEEC@Z",
+      "verification": "verification/ruleslib/rva_019ba0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x19f50",
+      "size": 76,
+      "source": "src/ruleslib/matched/rva_019f50.cpp",
+      "source_sha256": "6b8a9299ecc8896c08f4352c316e127552becb29f0712ccf78665ca5d9473d69",
+      "symbol": "?foo@Legacy@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_019f50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1a0c0",
+      "size": 24,
+      "source": "src/ruleslib/matched/rva_01a0c0.cpp",
+      "source_sha256": "4d6eea6a26dee2b1282442dbda7883487017e1e102c38296c79f350aa7dd91ed",
+      "symbol": "?bar@Foo@@QAEIH@Z",
+      "verification": "verification/ruleslib/rva_01a0c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1a0e0",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_01a0e0.cpp",
+      "source_sha256": "fc14d7cb91748a9eb561dcdc1d7883625f69b8c1f553b2c1d9ff86abf65dbd03",
+      "symbol": "?check@Legacy@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_01a0e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1b920",
+      "size": 44,
+      "source": "src/ruleslib/matched/rva_01b920.cpp",
+      "source_sha256": "bb117925e690df29338a37372173802f7da27692a08492c7ee107e5f499a8990",
+      "symbol": "?getValue@Legacy@@QBEKG@Z",
+      "verification": "verification/ruleslib/rva_01b920.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x1fdb0",
+      "size": 35,
+      "source": "src/ruleslib/matched/rva_01fdb0.cpp",
+      "source_sha256": "93715ad08cf28024c1e32908d4d5fc35e6b2652e0f201ec7dd5252abcac04270",
+      "symbol": "?lookup@LegacyClass@@QAEGE@Z",
+      "verification": "verification/ruleslib/rva_01fdb0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x201e0",
+      "size": 48,
+      "source": "src/ruleslib/matched/rva_0201e0.cpp",
+      "source_sha256": "f26c0b2908d5c70c374acf837dfb2afff53ab7273e8bb4a6cd95d5278b42f40d",
+      "symbol": "?check@Legacy@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_0201e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x20270",
+      "size": 91,
+      "source": "src/ruleslib/matched/rva_020270.cpp",
+      "source_sha256": "34329eb82ab47db1d0d13daa4ca9112932eee7c3a6ac6fd81327ef2c8cbdca88",
+      "symbol": "?init@Legacy@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_020270.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x203b0",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_0203b0.cpp",
+      "source_sha256": "f812be456b47c55b35d1be6bc68ea6b65b2235d0b048a96a47d233a9479b488a",
+      "symbol": "??0MyClass@@QAE@XZ",
+      "verification": "verification/ruleslib/rva_0203b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x203c0",
+      "size": 67,
+      "source": "src/ruleslib/matched/rva_0203c0.cpp",
+      "source_sha256": "32717e5c268bfd9920a1bb2f22fcefa34de37f962bba7ee21a1bf54aa9c959f7",
+      "symbol": "?compute@Legacy@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_0203c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x20410",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_020410.cpp",
+      "source_sha256": "de3eba5d227b65c2afdea46ea6b487c9e2056bd4ba448ebb1334d520701ebcbd",
+      "symbol": "?compute@MyStruct@@QBEIE@Z",
+      "verification": "verification/ruleslib/rva_020410.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x208c0",
+      "size": 41,
+      "source": "src/ruleslib/matched/rva_0208c0.cpp",
+      "source_sha256": "b60d15aca5adc06e1c126a2775163fdcea6b1a6d9a6f23b9ee63d02f52bd6c39",
+      "symbol": "?findByIndex@MyClass@@QBEPAUElement@@H@Z",
+      "verification": "verification/ruleslib/rva_0208c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x208f0",
+      "size": 78,
+      "source": "src/ruleslib/matched/rva_0208f0.cpp",
+      "source_sha256": "611056939061ad58125b155fdda3750a016d119d432b387228fd1351462612e5",
+      "symbol": "?find@MyStruct@@QAEPAURecord@@H@Z",
+      "verification": "verification/ruleslib/rva_0208f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x20f70",
+      "size": 34,
+      "source": "src/ruleslib/matched/rva_020f70.cpp",
+      "source_sha256": "13bcd221f578ed0159090ab8a7ce0150ccb5c805dc8b98844e817fdf3d887006",
+      "symbol": "?clear@LegacyStruct@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_020f70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x22f50",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_022f50.cpp",
+      "source_sha256": "5170964406c2c4a35b5914b5ba94a7ff6017c77b13f7462aec6a1be875366ed0",
+      "symbol": "?clear@MyStruct@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_022f50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x23250",
+      "size": 30,
+      "source": "src/ruleslib/matched/rva_023250.cpp",
+      "source_sha256": "723736fe6ac083e6ebd0c5b300c962ab23781feb5da4827e7ca02f908ca996e0",
+      "symbol": "?get@Legacy@@QBEHE@Z",
+      "verification": "verification/ruleslib/rva_023250.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x234a0",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_0234a0.cpp",
+      "source_sha256": "6e571059af97b3fd3f1a1bfb6fa0934ea21697198db51743399639dbf4bfef42",
+      "symbol": "?getByte@Legacy@@QBEEE@Z",
+      "verification": "verification/ruleslib/rva_0234a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x234c0",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_0234c0.cpp",
+      "source_sha256": "fbbfa98746f568880c44b730d9bd9cff0c2e79e6da4fdd36cce150d96b19be73",
+      "symbol": "?getByte@Legacy@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_0234c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x234e0",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_0234e0.cpp",
+      "source_sha256": "9cfa448be2623b5151c90a30cd05b537b3341058bb687011ae79e6d37fb4be4f",
+      "symbol": "?getByte@MyClass@@QAEEE@Z",
+      "verification": "verification/ruleslib/rva_0234e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x23500",
+      "size": 29,
+      "source": "src/ruleslib/matched/rva_023500.cpp",
+      "source_sha256": "25a9e16b2f70bfb7fe2ad3b201ba60958aa3f86f308364377ab8637d49a1b41d",
+      "symbol": "?getByte@Legacy@@QBEEE@Z",
+      "verification": "verification/ruleslib/rva_023500.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24430",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_024430.cpp",
+      "source_sha256": "2101fa95b9c58dc83457f14ea90f01ca8a89f0b87015ff5697d6c0444d43d57c",
+      "symbol": "?method@C@@SGHPAUS@@@Z",
+      "verification": "verification/ruleslib/rva_024430.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24440",
+      "size": 24,
+      "source": "src/ruleslib/matched/rva_024440.cpp",
+      "source_sha256": "4a017abe2bc6272dee28d4c372f0100de168f6a3f7a8e0c92cf8f56369cce209",
+      "symbol": "?setFlag@Target@@SGXPAU1@H@Z",
+      "verification": "verification/ruleslib/rva_024440.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24460",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_024460.cpp",
+      "source_sha256": "fc7d2c00dd4cece173687b29e90ca645790a7b0e1f4dd94aea0706b9d0fa9a5f",
+      "symbol": "?check@Legacy@@SGHPAU1@@Z",
+      "verification": "verification/ruleslib/rva_024460.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24470",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_024470.cpp",
+      "source_sha256": "eb3adfded00d1d93a46a20ab2fd0350b65c91e8957f70aa2f177d5fe08144a02",
+      "symbol": "?func@MyClass@@SGXPAXH@Z",
+      "verification": "verification/ruleslib/rva_024470.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24490",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_024490.cpp",
+      "source_sha256": "2e421fa3b474677888db44fe8816073d0001f5becbdce10042688bb5f7f45823",
+      "symbol": "?legacyFunction@Legacy@@QAEHPBX@Z",
+      "verification": "verification/ruleslib/rva_024490.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x244b0",
+      "size": 28,
+      "source": "src/ruleslib/matched/rva_0244b0.cpp",
+      "source_sha256": "0abbc5a903a848e24a2ba778c95b5c48b95b03532ce0317575a5010cd9c8e9c3",
+      "symbol": "?method@MyClass@@SGXPAUData@@PAX@Z",
+      "verification": "verification/ruleslib/rva_0244b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x244d0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0244d0.cpp",
+      "source_sha256": "d58cbc513af27d546059bf18a81809cb3b17005bb339e76195fc5e463bf91993",
+      "symbol": "?getBit@Legacy@@SGHPBE@Z",
+      "verification": "verification/ruleslib/rva_0244d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x244f0",
+      "size": 30,
+      "source": "src/ruleslib/matched/rva_0244f0.cpp",
+      "source_sha256": "99b5ad9d3d43ccc413ccb602991fecb079fba1273b8aa304bc9729124467095c",
+      "symbol": "?func@MyClass@@SGXPAUTarget@@I@Z",
+      "verification": "verification/ruleslib/rva_0244f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24510",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_024510.cpp",
+      "source_sha256": "b1393c601041cb1809117d8c06c736b0eaaeacba6ca4618fabb38110b09eed33",
+      "symbol": "?setField@Foo@@QAEXPAUTarget@@H@Z",
+      "verification": "verification/ruleslib/rva_024510.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x247b0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0247b0.cpp",
+      "source_sha256": "c1125cad6b6f6efbefe022820a2576dbb68eaeda78dfd0a11aff417ccd579fc0",
+      "symbol": "?check@Legacy@@SG_NPBD@Z",
+      "verification": "verification/ruleslib/rva_0247b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x248f0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_0248f0.cpp",
+      "source_sha256": "24612940ff6628503a641ace598e8edda560cbbc5f47939de69d83c82c997d55",
+      "symbol": "?getField@Legacy@@QBEHPBX@Z",
+      "verification": "verification/ruleslib/rva_0248f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24910",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_024910.cpp",
+      "source_sha256": "de370178d5b09e80fe858e00bc6507c0346ae3871ff837a7aa966081ffb14c51",
+      "symbol": "?getField@Legacy@@SGHPAX@Z",
+      "verification": "verification/ruleslib/rva_024910.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x249a0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0249a0.cpp",
+      "source_sha256": "9e7a682ae8571bf4397767d9dec0ab608b9f1dea3a35e7e8a8c3eddde870e44f",
+      "symbol": "?getField@MyClass@@SGIPBUOther@@@Z",
+      "verification": "verification/ruleslib/rva_0249a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x24a30",
+      "size": 18,
+      "source": "src/ruleslib/matched/rva_024a30.cpp",
+      "source_sha256": "38b13ad1c419deee0219d82545f65e41c56f795b184f51be5aec3769bc2d7deb",
+      "symbol": "?setValue@Processor@@QAEXPAUTarget@@I@Z",
+      "verification": "verification/ruleslib/rva_024a30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25320",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_025320.cpp",
+      "source_sha256": "a65fd9417f2703d34233a5502661f19f2062768e52c074c099c1864fc070fb10",
+      "symbol": "?setField@MyClass@@QAEXPAUTarget@@H@Z",
+      "verification": "verification/ruleslib/rva_025320.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25340",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025340.cpp",
+      "source_sha256": "94df651777bb3af4e1f7c1a8c7e5e528b75c508fb7bbca5f4691d591f41d816e",
+      "symbol": "?getField@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_025340.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x256e0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0256e0.cpp",
+      "source_sha256": "d2ea4a7f72077eaad18945266ab61d730a452336fcd2e2aec5a6d8fe9e0e73aa",
+      "symbol": "?setVal@Legacy@@QAEXPAXI@Z",
+      "verification": "verification/ruleslib/rva_0256e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25700",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_025700.cpp",
+      "source_sha256": "56f24ff8670349bea5e10d8e822f5b0d6628d447c9ac04a42636e557991e93bc",
+      "symbol": "?setField@MyStruct@@SGXPAU1@I@Z",
+      "verification": "verification/ruleslib/rva_025700.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25bd0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_025bd0.cpp",
+      "source_sha256": "a2bc89d01a6f9f3e08074cc51aa506b6c0f623ec97aa312352b1da3ee9b0cc80",
+      "symbol": "?getOffset@Legacy@@SGHPAX@Z",
+      "verification": "verification/ruleslib/rva_025bd0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25dc0",
+      "size": 18,
+      "source": "src/ruleslib/matched/rva_025dc0.cpp",
+      "source_sha256": "dd3a4d20f5e6cac7f22279268dab831398f830f9e9347d23acd0ea5e3959ed3c",
+      "symbol": "?getValue@MyStruct@@SGHPAHH@Z",
+      "verification": "verification/ruleslib/rva_025dc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e00",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e00.cpp",
+      "source_sha256": "93c561d09ec3cf4f0e6c07a877540011b33dde129f29c20cca2fc0e0cc528de9",
+      "symbol": "?getField@MyClass@@SGIPBUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_025e00.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e10",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e10.cpp",
+      "source_sha256": "01f8cb4ed5cfd491a245e4a1c34d123f224d9cb54cbf4e14c0e565fe037b1f84",
+      "symbol": "?getField@Legacy@@QBEIPBX@Z",
+      "verification": "verification/ruleslib/rva_025e10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e20",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e20.cpp",
+      "source_sha256": "fe80e73faf20347ad677c154218b5eb31ef04883233820328b670da125250007",
+      "symbol": "?getValue@MyClass@@QAEIPAULegacyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_025e20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e30",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e30.cpp",
+      "source_sha256": "6e01d4efb9881b43322ed690ddc7cb29379d1e3df7a17824f246f5c2287abd2e",
+      "symbol": "?readOffset@Legacy@@QBEIPAX@Z",
+      "verification": "verification/ruleslib/rva_025e30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e40",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e40.cpp",
+      "source_sha256": "da7724f8d3d27665c709f907177310de1a9cd2fa0116c8d377aeb5c789e16d2e",
+      "symbol": "?GetValue@Legacy@@SGHPBV1@@Z",
+      "verification": "verification/ruleslib/rva_025e40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e50",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e50.cpp",
+      "source_sha256": "7dc4f07efce275d8ccdde46b03e608502c839ac9f0e15cecae9266821e8488c2",
+      "symbol": "?getOffset@Legacy@@SGHPBX@Z",
+      "verification": "verification/ruleslib/rva_025e50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e60",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e60.cpp",
+      "source_sha256": "a6e57085fc55727b8243ab00b27c78d4cdd272d6fc41eadbd57cba352cae7ca3",
+      "symbol": "?getField@Bar@@QBEIPBX@Z",
+      "verification": "verification/ruleslib/rva_025e60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e70",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e70.cpp",
+      "source_sha256": "76f1dce3c492db1f61b6f005c2669ace40f980c6c3eb0ced69f5b7c1ae3346bf",
+      "symbol": "?GetField@MyClass@@SGIPAUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_025e70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e80",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e80.cpp",
+      "source_sha256": "e82e22ed5e10bf05fec0622b67b79651905ef2874bc89aacfb39083fe236d64f",
+      "symbol": "?getValue@MyClass@@QAEHPBX@Z",
+      "verification": "verification/ruleslib/rva_025e80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25e90",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025e90.cpp",
+      "source_sha256": "61526d40d2f1860c05eb335bedd1fef8ec2429d897465ee9adff63eb477d0f3e",
+      "symbol": "?getField@MyClass@@SGHPBUFoo@@@Z",
+      "verification": "verification/ruleslib/rva_025e90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25ea0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025ea0.cpp",
+      "source_sha256": "6ff45beff234e9e123888693999bbb3a4b42ed031a63d862478c04ed6c0e7977",
+      "symbol": "?getValue@MyStruct@@SGIPAU1@@Z",
+      "verification": "verification/ruleslib/rva_025ea0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25eb0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025eb0.cpp",
+      "source_sha256": "20a68b739d7415c18ce5c5dd3f25807aed134203f1209cca58942782b5f49651",
+      "symbol": "?getField@Legacy@@QAEIPAX@Z",
+      "verification": "verification/ruleslib/rva_025eb0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25ec0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025ec0.cpp",
+      "source_sha256": "4da863fa10c1ef1c7a9342016edf09bd3cedeefbb103a2268402da7b0a3b9063",
+      "symbol": "?getField@Legacy@@SGHPAH@Z",
+      "verification": "verification/ruleslib/rva_025ec0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25ed0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025ed0.cpp",
+      "source_sha256": "270977cbbe70c846af4140d7fe4f3a1a7ceb20915d4d33a5e91c1ceee892044f",
+      "symbol": "?getField@X@@QBEHPAUOther@@@Z",
+      "verification": "verification/ruleslib/rva_025ed0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25ee0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025ee0.cpp",
+      "source_sha256": "1c782de50ea5caac4df01563a12653fdf186d75257bbe004f3a6f36e1e0f9746",
+      "symbol": "?getField@MyClass@@SGKPAX@Z",
+      "verification": "verification/ruleslib/rva_025ee0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f00",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f00.cpp",
+      "source_sha256": "7a9655e2524ad09b08e0718c464124bc69c121a277e937342d5098ae5a301bbe",
+      "symbol": "?legacyMethod@LegacyFuncHolder@@QBEHPBX@Z",
+      "verification": "verification/ruleslib/rva_025f00.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f10",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f10.cpp",
+      "source_sha256": "30465b364af5cba71725a8ec6f0716cf12d73bd6522f415b1b9810110d96cf82",
+      "symbol": "?getValue@Legacy@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_025f10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f20",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f20.cpp",
+      "source_sha256": "c0ff3c9572edc7b0213fc34808cb33e6dbc91471966df6281edbdc70cf5f729e",
+      "symbol": "?func@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_025f20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f30",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f30.cpp",
+      "source_sha256": "52beded48d186d927564dfc6cc117a252ab243e1843ee84204d5fdfcd1d4ae8f",
+      "symbol": "?memberFunc@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_025f30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f40",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f40.cpp",
+      "source_sha256": "404b3b3770abe96e2728a7e16e8cd055a90c3da1ad06b98b06cfaf11f66e5e34",
+      "symbol": "?getValue@Legacy@@QAEKPAX@Z",
+      "verification": "verification/ruleslib/rva_025f40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f50",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f50.cpp",
+      "source_sha256": "3162caf154bbd8969d785d08acf48fb5a43fb75635517464d147e783e3277c53",
+      "symbol": "?getValue@Legacy@@SGHPAX@Z",
+      "verification": "verification/ruleslib/rva_025f50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f60",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f60.cpp",
+      "source_sha256": "43789cee9387ec80c114d3c1ff229bccc633e8f9f96601164ce65f702f4f82a5",
+      "symbol": "?getOffsetValue@Legacy@@SGKPAX@Z",
+      "verification": "verification/ruleslib/rva_025f60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f70",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f70.cpp",
+      "source_sha256": "b2c069e6289ad4a4bd4370e3aaf7583d34a5fcd949e7001ac551dc4c1d2d407d",
+      "symbol": "?getField@Legacy@@SGIPAX@Z",
+      "verification": "verification/ruleslib/rva_025f70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f80",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f80.cpp",
+      "source_sha256": "f6294fe1edbba55d49f0e898f19bfe0b3eb57506745b94c2947e4f39c6a49bf2",
+      "symbol": "?getValue@MyClass@@QAEHPAUSubStruct@@@Z",
+      "verification": "verification/ruleslib/rva_025f80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25f90",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025f90.cpp",
+      "source_sha256": "cbbe7ce9aae968fdd1b5eb3e5ff2bfe8eca0daa9c57178e6cb2df63cbc3b3a5e",
+      "symbol": "?ReadField@Legacy@@SGIPAX@Z",
+      "verification": "verification/ruleslib/rva_025f90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25fa0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025fa0.cpp",
+      "source_sha256": "31546f9b6d377a52c5254cc36326686173d6eff947104834cae5b077edb6ba7c",
+      "symbol": "?getValue@MyClass@@QAEIPAI@Z",
+      "verification": "verification/ruleslib/rva_025fa0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25fb0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025fb0.cpp",
+      "source_sha256": "6b327b3243682595b13b5a2e7135e906e4b380957a8ab788b75f7675455e0112",
+      "symbol": "?getField@Legacy@@QAEHPBX@Z",
+      "verification": "verification/ruleslib/rva_025fb0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25fc0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025fc0.cpp",
+      "source_sha256": "4bdc4d2f9a4092e0fe41d708df99c7b936e854399f1a1319d52c7d3f1fbadd44",
+      "symbol": "?GetOffset@Legacy@@QAEKPAX@Z",
+      "verification": "verification/ruleslib/rva_025fc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25fd0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025fd0.cpp",
+      "source_sha256": "8992f60521e24e8ca9c17264ce4a94a92e1dac4b6ae5152faf4506942d3dfd52",
+      "symbol": "?method@Dummy@@QBEIPAX@Z",
+      "verification": "verification/ruleslib/rva_025fd0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25fe0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025fe0.cpp",
+      "source_sha256": "6c8829395a0d43f4895232d9d30bb4b9892e0e279f4cc7cc539295c2d4afc646",
+      "symbol": "?getValue@Legacy@@QAEIPBX@Z",
+      "verification": "verification/ruleslib/rva_025fe0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x25ff0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_025ff0.cpp",
+      "source_sha256": "c47aa3c8a3ffe9af035bcf56c4b40f2c9adb741d85e08d23d32686bdf8f6aee9",
+      "symbol": "?getField@Legacy@@QAEHPBX@Z",
+      "verification": "verification/ruleslib/rva_025ff0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30150",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_030150.cpp",
+      "source_sha256": "3c6c0327db469ed3c1132133a6933c815e76240b4985487654e88d33f591e914",
+      "symbol": "?getField@MyClass@@SGHPAV1@@Z",
+      "verification": "verification/ruleslib/rva_030150.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30160",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_030160.cpp",
+      "source_sha256": "53eb7fb474782ed9172f7f917f25dcb77e0bb16ff6b16583a278176f70d28250",
+      "symbol": "?getValue@MyClass@@SGHPAX@Z",
+      "verification": "verification/ruleslib/rva_030160.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30170",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_030170.cpp",
+      "source_sha256": "04693c9c1767901b8450397317c460b7a80248ed2f869337e3f6be58d967bebe",
+      "symbol": "?readField@Legacy@@QAEIPBX@Z",
+      "verification": "verification/ruleslib/rva_030170.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30180",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_030180.cpp",
+      "source_sha256": "5c40a0b178f3d6aea2903cc1faa69882f831c39e7069dc9816eb7a247b639aab",
+      "symbol": "?getField@MyClass@@QAEKPAK@Z",
+      "verification": "verification/ruleslib/rva_030180.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x301c0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0301c0.cpp",
+      "source_sha256": "43974088c7f3ca2ae24777b40ed9feafceb6567ff3166abab5bbcd6f83093ab0",
+      "symbol": "?ReadByte@MyClass@@SGEPAX@Z",
+      "verification": "verification/ruleslib/rva_0301c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x301e0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0301e0.cpp",
+      "source_sha256": "48fec40ec9a63f7390c43ba7b9fcb7fe555942bf3a53ac073a680a1fd4ce6f7c",
+      "symbol": "?setByte@MyStruct@@SGXPAXE@Z",
+      "verification": "verification/ruleslib/rva_0301e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x301f0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0301f0.cpp",
+      "source_sha256": "84c69a5d9998036da54aaaef037dbf77a9f6dd33aeb344fcc94cf372570bcaad",
+      "symbol": "?SetByte@Legacy@@SGXPAXE@Z",
+      "verification": "verification/ruleslib/rva_0301f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30200",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030200.cpp",
+      "source_sha256": "a9f79cccb90eb3228c35f2f9d80800eef1d44571b2e455c36a3ecbe34b9ea3ba",
+      "symbol": "?setByteAtOffset@MyStruct@@SGXKE@Z",
+      "verification": "verification/ruleslib/rva_030200.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30210",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_030210.cpp",
+      "source_sha256": "6163bbf33b0c04f62196dc096803546790bbe7fc84a78f46fefb421bc0b6614b",
+      "symbol": "?writeWord@Legacy@@QAEXPAIG@Z",
+      "verification": "verification/ruleslib/rva_030210.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30250",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_030250.cpp",
+      "source_sha256": "1065637b719c3d9cc9c2b6aa9e688041e51fa744c4e1cd3ceeade9b575ee3d09",
+      "symbol": "?setValue@MyStruct@@SGXPAIG@Z",
+      "verification": "verification/ruleslib/rva_030250.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30260",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_030260.cpp",
+      "source_sha256": "d626fccf35660636ee0516114de7561aef97f6858bfa223f62440ac14c95e0f8",
+      "symbol": "?setField@Legacy@@QAEXPAXG@Z",
+      "verification": "verification/ruleslib/rva_030260.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30270",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_030270.cpp",
+      "source_sha256": "7caa16c14609212fccf1edacb2d563243a03b4afc985d92cbbd9d516026b195b",
+      "symbol": "?setValue@LegacyFunctionHolder@@QAEXPAIG@Z",
+      "verification": "verification/ruleslib/rva_030270.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30280",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_030280.cpp",
+      "source_sha256": "3c506efcc5e4279abec984475da7ba29bb622c0fb950422c8e2084d970a48027",
+      "symbol": "?setValue@MyClass@@SGXPAV1@G@Z",
+      "verification": "verification/ruleslib/rva_030280.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x302a0",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_0302a0.cpp",
+      "source_sha256": "df64e98166d46796da1660aba3a25bf476dc32ea6d32c18df62506324f32ffc6",
+      "symbol": "?writeValue@Legacy@@QAEXPAEG@Z",
+      "verification": "verification/ruleslib/rva_0302a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x302d0",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_0302d0.cpp",
+      "source_sha256": "bc9f17361c3b686d0734b02747c20b2778c2c44a0e69ef65d1afb364db6e440a",
+      "symbol": "?setWordAtOffset@MyClass@@SGXPAXG@Z",
+      "verification": "verification/ruleslib/rva_0302d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x302e0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0302e0.cpp",
+      "source_sha256": "d42c941ab51fbe92dc395ea8dd034c0823a40a12d9c089df173e742d4863d256",
+      "symbol": "?setByte@Legacy@@SGXPAXE@Z",
+      "verification": "verification/ruleslib/rva_0302e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x302f0",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_0302f0.cpp",
+      "source_sha256": "b2798d4fccd75e47cf3217ee737de509ba23bb4d68abedc7d4ddaf5789d3aa7e",
+      "symbol": "?bar@Foo@@QAEXPAXG@Z",
+      "verification": "verification/ruleslib/rva_0302f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30310",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030310.cpp",
+      "source_sha256": "aa148bd383817ac6c6a0f1896d80fce1ec57aa7dbc060d1b564abfabb80d66e0",
+      "symbol": "?setByte@Legacy@@QAEXPAXE@Z",
+      "verification": "verification/ruleslib/rva_030310.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30330",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030330.cpp",
+      "source_sha256": "b829919c3542f9cbf33cf5b31dc89bbf9c5602ee601199eff28938be8b35d2b7",
+      "symbol": "?setByte@Legacy@@QAEXPAIE@Z",
+      "verification": "verification/ruleslib/rva_030330.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30340",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030340.cpp",
+      "source_sha256": "36fffcea827f44cc823d5aab4230b437c6451318f0cc5a1eac1d3e0c8de88d6b",
+      "symbol": "?setByte@Legacy@@QAEXPAXE@Z",
+      "verification": "verification/ruleslib/rva_030340.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30350",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030350.cpp",
+      "source_sha256": "62e0e4176bdcbce593c69979281c6a901b1d66781422bd2da83ab3cdbbe4924b",
+      "symbol": "?setByte@MyStruct@@SGXPAU1@E@Z",
+      "verification": "verification/ruleslib/rva_030350.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30360",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_030360.cpp",
+      "source_sha256": "3fca2ff61ac1e31ca19f5986b10e213de765794f584904d52aca28f6dce70a0c",
+      "symbol": "?setField@MyClass@@QAEXPAUMyObject@@I@Z",
+      "verification": "verification/ruleslib/rva_030360.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30380",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_030380.cpp",
+      "source_sha256": "23d5c8bd2c5757c7157f72c75a3c0035752dafbc1547f6abd74e5131b1109b33",
+      "symbol": "?setField@MyClass@@SGXPAUTarget@@H@Z",
+      "verification": "verification/ruleslib/rva_030380.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x303e0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0303e0.cpp",
+      "source_sha256": "8a06730bd518d79974be8a4fd394dbd26c0434918e6d7b85edf892daca92dac3",
+      "symbol": "?setValue@MyClass@@QAEXPAXM@Z",
+      "verification": "verification/ruleslib/rva_0303e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30400",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_030400.cpp",
+      "source_sha256": "92950e7181263e17cead37979e4ada806145edcc43df1f167f9dd46d68cf2612",
+      "symbol": "?set_word@X@@SGXPAGG@Z",
+      "verification": "verification/ruleslib/rva_030400.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30410",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_030410.cpp",
+      "source_sha256": "752983d335174f0bef6b40ffd83c6099b25039c34bbd862779f5e2b7fb2fe5b6",
+      "symbol": "?setField@Legacy@@SGXPAU1@H@Z",
+      "verification": "verification/ruleslib/rva_030410.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30430",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_030430.cpp",
+      "source_sha256": "8ca0f6f1acb702f41ebf813c2e2365c6f70349e6dd5f9531dac3f0261c04776d",
+      "symbol": "?setField@Dummy@@QAEXPAV1@E@Z",
+      "verification": "verification/ruleslib/rva_030430.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30540",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_030540.cpp",
+      "source_sha256": "6e7f07f3e957b346b103afc1d1af0311eda4f73d4a929a88aa644d30ed5337b0",
+      "symbol": "?func@Legacy@@SGHH@Z",
+      "verification": "verification/ruleslib/rva_030540.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x305b0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0305b0.cpp",
+      "source_sha256": "54be1cf072a108976648797f5405742db51db310001f7540d0a04c56cea88627",
+      "symbol": "?setField@Utils@@SGXPAUTarget@@I@Z",
+      "verification": "verification/ruleslib/rva_0305b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x305d0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0305d0.cpp",
+      "source_sha256": "d3c8dc2f1dfc50429a6819189b7375da052682081844fa9e8ebe808fc01a8dee",
+      "symbol": "?getField@MyClass@@QBEIPBX@Z",
+      "verification": "verification/ruleslib/rva_0305d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30670",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_030670.cpp",
+      "source_sha256": "19ca856b9e62a771dd804d250f20eb2500bf33339d5867a23841d125379d6138",
+      "symbol": "?readByteAtOffset2@Legacy@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_030670.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x306e0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_0306e0.cpp",
+      "source_sha256": "b619b27d64c392d019806ea39eb49d84618134e4696f6b2574ba04a228e21cd8",
+      "symbol": "?readWord@Legacy@@QAEGPAX@Z",
+      "verification": "verification/ruleslib/rva_0306e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30c90",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_030c90.cpp",
+      "source_sha256": "a02341dc37d452823812a8168eaedae9e8a106922c07bd3f98d546d612791680",
+      "symbol": "?foo@MyClass@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_030c90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30da0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_030da0.cpp",
+      "source_sha256": "18b181e0f7894f7095df6fee02fabc511cca291dad8ed8f012cc6e3a608dc481",
+      "symbol": "?readByteAtOffset@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_030da0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x30dc0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_030dc0.cpp",
+      "source_sha256": "7d02811570ba723faa46cd800122be441c7ae743e98dd9a3ec1a5217b82d54f3",
+      "symbol": "?f@S@@QAEHHHH@Z",
+      "verification": "verification/ruleslib/rva_030dc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x310d0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0310d0.cpp",
+      "source_sha256": "847ff358ee01228eecbe9599c78343b651098a47b46e83c0fde82e03ce2e0b06",
+      "symbol": "?GetField@Wrapper@@QAEHPAUData@@@Z",
+      "verification": "verification/ruleslib/rva_0310d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x310e0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0310e0.cpp",
+      "source_sha256": "844c79b2ab5504ff1a582ff023306f7861d9c189d269cd5df8ca56193412fc39",
+      "symbol": "?setValue@MyClass@@QAEXPAXH@Z",
+      "verification": "verification/ruleslib/rva_0310e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31100",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031100.cpp",
+      "source_sha256": "c57d21829c0a635d65db17f9d37c4751c810cfc89410b93a7c7f08e6ae32a57d",
+      "symbol": "?getValue@Legacy@@SGHPAH@Z",
+      "verification": "verification/ruleslib/rva_031100.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31110",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031110.cpp",
+      "source_sha256": "885e58a03bd969b159bd06fe63e1390f232a99bf9d3d44560a14f41b30978e94",
+      "symbol": "?setValue@Foo@@SGXPAV1@I@Z",
+      "verification": "verification/ruleslib/rva_031110.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31130",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031130.cpp",
+      "source_sha256": "0b0089eeb7841a8f9dcbc283cc2afb681e9c6e1b97f94bd026ffd4672a00a909",
+      "symbol": "?getByte@MyClass@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_031130.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31140",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031140.cpp",
+      "source_sha256": "5935b81d5002ceb45886d776d4bfc313501b12b2339bda146b0235961c3caa6f",
+      "symbol": "?writeByte@Legacy@@QAEXPAXE@Z",
+      "verification": "verification/ruleslib/rva_031140.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31160",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031160.cpp",
+      "source_sha256": "187ad8a0c9edc7949d9328acf02a8ac555e94981b3ea36707da703e42c1f20fa",
+      "symbol": "?getByte@Legacy@@SGEPBX@Z",
+      "verification": "verification/ruleslib/rva_031160.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31170",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031170.cpp",
+      "source_sha256": "33d87ad8954b2180d8efaf5e8baf1c2a322f47fd99de7f6c3ce5a303d5837a32",
+      "symbol": "?setByte@MyClass@@SGXPAVTarget@@E@Z",
+      "verification": "verification/ruleslib/rva_031170.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x311b0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0311b0.cpp",
+      "source_sha256": "b14f3c17edec54584d627f42a306f2de229864a18dfea6d170b381b0e3d8b494",
+      "symbol": "?fetch@Legacy@@QBEHPAH@Z",
+      "verification": "verification/ruleslib/rva_0311b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31230",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_031230.cpp",
+      "source_sha256": "783f4bb76aeac22cb66a7383c7b2160fcfece629fcb067d54770c0d3ee91da8f",
+      "symbol": "?readWord@Legacy@@QBEFPBX@Z",
+      "verification": "verification/ruleslib/rva_031230.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31310",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031310.cpp",
+      "source_sha256": "9fdaa3a7b4d8ceb28fb191fb820a6059d035cf953ad9223f6f1cda9a0a420356",
+      "symbol": "?setField@Dummy@@QAEXPAVTarget@@I@Z",
+      "verification": "verification/ruleslib/rva_031310.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31330",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031330.cpp",
+      "source_sha256": "b56935abd5f3eb74bca3f567884ffd7d5f4894800c3eaa6b14d75f9010352725",
+      "symbol": "?getValue@Legacy@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_031330.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31340",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_031340.cpp",
+      "source_sha256": "4141de04638996e3de496b96f896bf51af1e781bf472537b7b948a6086391f16",
+      "symbol": "?setByte@MyClass@@SGXIEE@Z",
+      "verification": "verification/ruleslib/rva_031340.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31360",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_031360.cpp",
+      "source_sha256": "79a020d109f891b65a5655ecd69bc8f79601e8ff0b44257c59d557e64df190f1",
+      "symbol": "?func@Legacy@@SGEIE@Z",
+      "verification": "verification/ruleslib/rva_031360.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31380",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_031380.cpp",
+      "source_sha256": "305ec34e284180fe19ff33c1d18c79f7244663541ab171d8ff829328745ac34d",
+      "symbol": "?func@Legacy@@SGXIEE@Z",
+      "verification": "verification/ruleslib/rva_031380.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x313c0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0313c0.cpp",
+      "source_sha256": "d4b5ca9645fdb0ff2bebd14e87ae0828dd757bb828fc14602d4981ad576635e2",
+      "symbol": "?bar@Foo@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_0313c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31400",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031400.cpp",
+      "source_sha256": "3a9eb6243bd871a20708bea3a55fa3758a304301710d02fbe3e268dd305d9f84",
+      "symbol": "?setByteAtOffsetX@MyStruct@@QAEXPAXE@Z",
+      "verification": "verification/ruleslib/rva_031400.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31420",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031420.cpp",
+      "source_sha256": "b470ee5c0778b3a86e4f03c72c0d9f22b9f238a920e3f7b6a94e71a2328637b5",
+      "symbol": "?getByte@MyClass@@QAEEPAE@Z",
+      "verification": "verification/ruleslib/rva_031420.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31450",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031450.cpp",
+      "source_sha256": "06022cc1b3a4a8526594c873647afbc6caeb18c02056c9997018581367039be1",
+      "symbol": "?getValue@Legacy@@SGIPAX@Z",
+      "verification": "verification/ruleslib/rva_031450.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31460",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031460.cpp",
+      "source_sha256": "56ec201abb25c283cd204e6f36bed0b35434b37d35434e5f9ff1dc9dcf3e747c",
+      "symbol": "?setValue@Legacy@@SGXPAXH@Z",
+      "verification": "verification/ruleslib/rva_031460.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31490",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031490.cpp",
+      "source_sha256": "dfab02f27aab13aba194a9ad58db408f7b79cd22a86609f64d062742ca46c7d1",
+      "symbol": "?readByte@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_031490.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x314a0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0314a0.cpp",
+      "source_sha256": "7b66cab2635255695e156e0e0bcb8e18d7ad1a5f092556ee3dc386b737654396",
+      "symbol": "?WriteByte@Legacy@@SGXPAEE@Z",
+      "verification": "verification/ruleslib/rva_0314a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x314c0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0314c0.cpp",
+      "source_sha256": "0a789e7953ff306797e8d6ba71ffcd19720838b5316be3e52e947f420b086745",
+      "symbol": "?getByte@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_0314c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31510",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031510.cpp",
+      "source_sha256": "b340452a23988289edda9504e82217cffc697c4385520c1cfc6f0480803c1231",
+      "symbol": "?foo@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_031510.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31540",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031540.cpp",
+      "source_sha256": "201386eaa0012af879583bf1e5903e48a4a662f5b77fdb2f844d360ebe34d897",
+      "symbol": "?GetFieldAtOffset@MyClass@@SGIPAX@Z",
+      "verification": "verification/ruleslib/rva_031540.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31550",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031550.cpp",
+      "source_sha256": "68c6ea824c0d90ecd7c664b8cab59cf88f118668f175ef77812cab9ac6fa2fd7",
+      "symbol": "?WriteValue@Legacy@@SGXPAV1@I@Z",
+      "verification": "verification/ruleslib/rva_031550.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31570",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031570.cpp",
+      "source_sha256": "3e61166239fc34284615e0257f3a3062b88b312ba745698bf88f310a5483b051",
+      "symbol": "?getField@LegacyClass@@QBEIPBX@Z",
+      "verification": "verification/ruleslib/rva_031570.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31590",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031590.cpp",
+      "source_sha256": "4ec8dac2b6da523e677073fce462331cd62de527bddf49b4e24153393fb9460c",
+      "symbol": "?setByte@Foo@@QAEXPAUTarget@@E@Z",
+      "verification": "verification/ruleslib/rva_031590.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x315b0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0315b0.cpp",
+      "source_sha256": "8f95a9ec13c9ca4153b153b37ec3b6f2e06e7156b847cc961f76c01c6075a2e0",
+      "symbol": "?setField@Legacy@@SGXPAU1@H@Z",
+      "verification": "verification/ruleslib/rva_0315b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x315d0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0315d0.cpp",
+      "source_sha256": "ffdf164337fb90f28ea9fb623be614e5ab45086226c41bfb0561e965ef9e2aaf",
+      "symbol": "?getValue@Helper@@SGHPAUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_0315d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31600",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031600.cpp",
+      "source_sha256": "0cb23bd5a4863b39636a854f7a666dce0cfcdfdf29a9c11b338bd579a1898440",
+      "symbol": "?readOffset@Legacy@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_031600.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31610",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031610.cpp",
+      "source_sha256": "ffa72be8a6fb1f81fc4cef4030349b719c9eba4cb5273a4f1d9b7ad935e12c8d",
+      "symbol": "?setField@MyClass@@SGXPAUMyStruct@@H@Z",
+      "verification": "verification/ruleslib/rva_031610.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31630",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031630.cpp",
+      "source_sha256": "887fa95bd98ff33d2ea8737df4267508d29c5e5373ae03cecdba7f77ef914dd5",
+      "symbol": "?getField@Legacy@@SGHPAV1@@Z",
+      "verification": "verification/ruleslib/rva_031630.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31640",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031640.cpp",
+      "source_sha256": "f8a03e4d7e93d903d1b7521d52328464064e108bc3baf130083905b517751816",
+      "symbol": "?setField@Helper@@SGXPAUMyStruct@@I@Z",
+      "verification": "verification/ruleslib/rva_031640.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31660",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031660.cpp",
+      "source_sha256": "4a80370c926d41eee008d2a997ac456fef5bc5dd43e853e91dc857a81c895dd4",
+      "symbol": "?getField@Legacy@@SGHPAX@Z",
+      "verification": "verification/ruleslib/rva_031660.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31690",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031690.cpp",
+      "source_sha256": "d3c967afef9f0d1fa45c640dbd6b82ac62dba310a68dffe0c1831b39ffe5e2c3",
+      "symbol": "?getField@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_031690.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x316c0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0316c0.cpp",
+      "source_sha256": "0c64d1b563382d87874cadc059ed6100810061593e1fac4526f7b3407d0a1f2c",
+      "symbol": "?GetValue@MyClass@@SGIPAE@Z",
+      "verification": "verification/ruleslib/rva_0316c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x316d0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_0316d0.cpp",
+      "source_sha256": "7dee70a03d80d7b42e3401426985682f5db354fd1675f5319424f73f60d9befd",
+      "symbol": "?setField@Foo@@SGXPAXI@Z",
+      "verification": "verification/ruleslib/rva_0316d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x316f0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0316f0.cpp",
+      "source_sha256": "e21ef7f52bee11aa097adea3ba9204486972d0a15dd50df0debf16edc104a485",
+      "symbol": "?getField@Legacy@@QAEHPBX@Z",
+      "verification": "verification/ruleslib/rva_0316f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31700",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_031700.cpp",
+      "source_sha256": "0539d7c5e3b4bf8c4115862598bed1ec95468de9c80f41ea70e755e651c58794",
+      "symbol": "?readWord@TableReader@@SGGPBXE@Z",
+      "verification": "verification/ruleslib/rva_031700.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31740",
+      "size": 22,
+      "source": "src/ruleslib/matched/rva_031740.cpp",
+      "source_sha256": "1a6f6f9f5527eac1c552b7fe0c7ba59d53a961d8bf17bb7e90fdd206bb21d5d2",
+      "symbol": "?func@Legacy@@QAEHIE@Z",
+      "verification": "verification/ruleslib/rva_031740.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x317a0",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_0317a0.cpp",
+      "source_sha256": "3b90b4ee6046dce79b1cf6f1f7ef3b755faf9687e7ab2a6ce90182ddc7addcd9",
+      "symbol": "?set_word_at_offset@Legacy@@SGXPAXG@Z",
+      "verification": "verification/ruleslib/rva_0317a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x317c0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0317c0.cpp",
+      "source_sha256": "e5903d02866a6fedd62749e58b106352e91bce15001ee699f666629c142b7fb7",
+      "symbol": "?foo@MyClass@@QAEIPAX@Z",
+      "verification": "verification/ruleslib/rva_0317c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x317d0",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_0317d0.cpp",
+      "source_sha256": "f2b064dfee1f75e24b4027fde00e6562f541c4ba5972d5885e70322ea7b2b7b2",
+      "symbol": "?setWord@MyClass@@SGXPAXF@Z",
+      "verification": "verification/ruleslib/rva_0317d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x317f0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0317f0.cpp",
+      "source_sha256": "bb054a160306c08065019bc969e448e130042ef32759a8e619fc1f059630e025",
+      "symbol": "?getField@Legacy@@SGFPAX@Z",
+      "verification": "verification/ruleslib/rva_0317f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31800",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_031800.cpp",
+      "source_sha256": "840ad2e69247a87a119c36fabe273700a0246524ee2a95df721278ea5beecfd2",
+      "symbol": "?setVal@LegacyObj@@QAEXIG@Z",
+      "verification": "verification/ruleslib/rva_031800.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31820",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_031820.cpp",
+      "source_sha256": "5fcb5ce84d47180779b186f6a4b2b4989f02a0bfe1c7bcc4002191c191320871",
+      "symbol": "?getWord@MyClass@@QAEFPAX@Z",
+      "verification": "verification/ruleslib/rva_031820.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31830",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_031830.cpp",
+      "source_sha256": "87ca5354883837f8aed33f88af917652bf743aa7cf9a04e929a85a481f2e922d",
+      "symbol": "?is_magic@Legacy@@QAE_NPBE@Z",
+      "verification": "verification/ruleslib/rva_031830.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31860",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031860.cpp",
+      "source_sha256": "75cbf1a3368231dea35fdc196868dca4fd0c803b25746d53dd42d13c8ad9c83a",
+      "symbol": "?getField@Legacy@@SGKPAK@Z",
+      "verification": "verification/ruleslib/rva_031860.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31870",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031870.cpp",
+      "source_sha256": "24e1cf0550dc00c8ad6692140d8169d8b57d36011ce5f9fbc230e3d0336b94f6",
+      "symbol": "?write_at_offset@Legacy@@SGXPAII@Z",
+      "verification": "verification/ruleslib/rva_031870.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31890",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031890.cpp",
+      "source_sha256": "520f54d95e026e01faf370735864e3dfa05b4617f19346287ebb4f637cd097ff",
+      "symbol": "?func@Legacy@@QBEIPBX@Z",
+      "verification": "verification/ruleslib/rva_031890.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x318a0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0318a0.cpp",
+      "source_sha256": "0e8f00536751a48d3928e5815b5d29e8901af8513818df2af931a6f464997b45",
+      "symbol": "?getField@X@@QAEEPAUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_0318a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x318c0",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_0318c0.cpp",
+      "source_sha256": "d7f8ed07bb8da53118374520da318c45b1dc32cd66afc0405d5227a5e889d4a2",
+      "symbol": "?getValue@Legacy@@SGIPAXE@Z",
+      "verification": "verification/ruleslib/rva_0318c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x318e0",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_0318e0.cpp",
+      "source_sha256": "e558fc827fed7496ebda822990e6abdf9b8357649ccdb248d6d79392d65937d7",
+      "symbol": "?f@C@@QAEEPBXE@Z",
+      "verification": "verification/ruleslib/rva_0318e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31900",
+      "size": 20,
+      "source": "src/ruleslib/matched/rva_031900.cpp",
+      "source_sha256": "0ed4fec15d00948597db5234ee23cdf68441fde98fd033daea1398c681f38116",
+      "symbol": "?GetValue@MyStruct@@SGGPAU1@E@Z",
+      "verification": "verification/ruleslib/rva_031900.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31920",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031920.cpp",
+      "source_sha256": "2133283af10206aaab1395a71a2ff3da4cde818d8e11bb46d01cca2aecb0e94b",
+      "symbol": "?setField@Caller@@SGXPAUTarget@@E@Z",
+      "verification": "verification/ruleslib/rva_031920.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31940",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031940.cpp",
+      "source_sha256": "b8c7d9338fc2c55968826dad9b82f04eda542ca71dea50ff36e76038e06a5000",
+      "symbol": "?readByte@Legacy@@QAEEPAH@Z",
+      "verification": "verification/ruleslib/rva_031940.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31970",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031970.cpp",
+      "source_sha256": "1055e5e749fc33e164f9768f3f7b854b8a20bc0db24d692ffa24cb9fc4aa67e9",
+      "symbol": "?getByte@Legacy@@QAEEPBE@Z",
+      "verification": "verification/ruleslib/rva_031970.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31980",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031980.cpp",
+      "source_sha256": "ce1aadf5ba86b2183b9c8f90cb5c9970ca2f8d410cd3c4972565b94884d900f6",
+      "symbol": "?setByte@MyStruct@@SGXPAXE@Z",
+      "verification": "verification/ruleslib/rva_031980.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x319a0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0319a0.cpp",
+      "source_sha256": "e775d545cf29be15e345e56549ca0d9fcb10ba9c4727fa25c33eb6ce169c8dde",
+      "symbol": "?getByte@MyStruct@@QBEEPAX@Z",
+      "verification": "verification/ruleslib/rva_0319a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x319f0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0319f0.cpp",
+      "source_sha256": "5451576a066cab6b3cd289c4c9171592909654b4f9ba26c205781d8d411f4ab6",
+      "symbol": "?readByte@Legacy@@QAEDPAUSomeStruct@@@Z",
+      "verification": "verification/ruleslib/rva_0319f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31a00",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_031a00.cpp",
+      "source_sha256": "8857f3c3c90247975f3af511b963c8cb1883af1b5335358ee9a568ec2de28b80",
+      "symbol": "?writeByte@Legacy@@QAEXPAEE@Z",
+      "verification": "verification/ruleslib/rva_031a00.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31a20",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031a20.cpp",
+      "source_sha256": "ab21c9a7c06312f83132055fabf48707449c4027e0bbee3826a1adf06667851c",
+      "symbol": "?func@MyClass@@QAEEH@Z",
+      "verification": "verification/ruleslib/rva_031a20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31a50",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_031a50.cpp",
+      "source_sha256": "ece9ff6a21d9c2e7bcc8598da21d4515caf780d38a25d303333bf604a80288be",
+      "symbol": "?get@Legacy@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_031a50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31e60",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_031e60.cpp",
+      "source_sha256": "2bdfdca783c50b3d4c8b681749941c538e98119595598dbcdcf883e058253ed2",
+      "symbol": "?setValue@Legacy@@SGXPAXI@Z",
+      "verification": "verification/ruleslib/rva_031e60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31e70",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_031e70.cpp",
+      "source_sha256": "00fec95bae6fe97ea4c4f9ca0a5435c3d042c2b68f6d0370ae5717dab6388b2c",
+      "symbol": "?getValue@MyClass@@QAEIPAUParam@@@Z",
+      "verification": "verification/ruleslib/rva_031e70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31e90",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_031e90.cpp",
+      "source_sha256": "cf5df4d1c513f26443804b9ca76c9fd70442e500bdd236ad962b342f9f7ad89b",
+      "symbol": "?getByte@LegacyStruct@@SGIPBU1@@Z",
+      "verification": "verification/ruleslib/rva_031e90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31ea0",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_031ea0.cpp",
+      "source_sha256": "883494b46c472cd59bc0c834f2a096cb9fe7aeee4ad57e3b4678611a734b864a",
+      "symbol": "?getByte@Legacy@@SGEPAEH@Z",
+      "verification": "verification/ruleslib/rva_031ea0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31eb0",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_031eb0.cpp",
+      "source_sha256": "48e44e13431c997d8333c1e02371630fff66478aa6bca35090515f645b382007",
+      "symbol": "?foo@MyClass@@SGXPAXHE@Z",
+      "verification": "verification/ruleslib/rva_031eb0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31ed0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_031ed0.cpp",
+      "source_sha256": "274f3c21eadcc121a7735ceb69445970121303609036d288679213b304785bdb",
+      "symbol": "?setByte@Foo@@SGXPAUMyStruct@@E@Z",
+      "verification": "verification/ruleslib/rva_031ed0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31f30",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_031f30.cpp",
+      "source_sha256": "44ab662ae301c54a2925dfeb35d27ab6be543c96a4718b0208ac9c9b05762d99",
+      "symbol": "?func@Legacy@@SGXPAUMyStruct@@I@Z",
+      "verification": "verification/ruleslib/rva_031f30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x31fa0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_031fa0.cpp",
+      "source_sha256": "bcc944ec59010287837acdab3d2f0a9093aacc9b5623600ea003ab8d2cd565f0",
+      "symbol": "?foo@MyClass@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_031fa0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32010",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_032010.cpp",
+      "source_sha256": "b3f1c391e6dfbb370bd3720103ebe012407cfd6468f1ef313dc95643061450ba",
+      "symbol": "?getValue@Legacy@@SGGPAX@Z",
+      "verification": "verification/ruleslib/rva_032010.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32020",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032020.cpp",
+      "source_sha256": "8391782075bc16486fd2645dc3805de5eba81ddf6caa6abe331dad2380e4491a",
+      "symbol": "?setWord@MyStruct@@SGXIG@Z",
+      "verification": "verification/ruleslib/rva_032020.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32030",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032030.cpp",
+      "source_sha256": "3eac6a4414a63a69255d6987da8bfad86df87ae005c2e089e77950f40d3994da",
+      "symbol": "?writeWord@Legacy@@SGXPAXG@Z",
+      "verification": "verification/ruleslib/rva_032030.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32040",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_032040.cpp",
+      "source_sha256": "07c17cfac644f2216402a72b3ee04408244195fdbecb691002b41ea0c091ceeb",
+      "symbol": "?getField@MyClass@@SGGPAUParam@@@Z",
+      "verification": "verification/ruleslib/rva_032040.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32050",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032050.cpp",
+      "source_sha256": "9ec0c5c149a9a1e87792af2f99f4ef6de43a8029d9694e56e9de3b3d55876744",
+      "symbol": "?setField@Legacy@@QAEXPAIG@Z",
+      "verification": "verification/ruleslib/rva_032050.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x320c0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0320c0.cpp",
+      "source_sha256": "bbf29cebef3e1a81c22e3be8338582b530fcb1bab11a9ebe1676544973e17ff7",
+      "symbol": "?getField@Legacy@@SGIPBX@Z",
+      "verification": "verification/ruleslib/rva_0320c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x320d0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0320d0.cpp",
+      "source_sha256": "c1f6246de8f95dee88399aef479716e3ed1f3af53434fd8f5540fd603cf68317",
+      "symbol": "?setField@MyClass@@QAEXPAUTarget@@I@Z",
+      "verification": "verification/ruleslib/rva_0320d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x320e0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0320e0.cpp",
+      "source_sha256": "0ad4c0377b0d87b417d532390684de78148bc5b9a49d6f59ef4f4eda8291a227",
+      "symbol": "?getField@MyStruct@@QAEIPBX@Z",
+      "verification": "verification/ruleslib/rva_0320e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x320f0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0320f0.cpp",
+      "source_sha256": "37004045a87e7eff0aff63463dd119c613f2478959c4f75eafd25bc11c697b25",
+      "symbol": "?setField@MyStruct@@SGXPAU1@H@Z",
+      "verification": "verification/ruleslib/rva_0320f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32130",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032130.cpp",
+      "source_sha256": "ef75c78b24525db7cc8f31dabb76951bd0af05b3612b5c43b38fd7f1d0cca382",
+      "symbol": "?GetField@Dummy@@SGHPAV1@@Z",
+      "verification": "verification/ruleslib/rva_032130.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32140",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032140.cpp",
+      "source_sha256": "3d76e3037fb51ae76aba37c05eaa3ffe8e2305ce63a844b5a347be0cb8074657",
+      "symbol": "?setField@Legacy@@SGXPAV1@H@Z",
+      "verification": "verification/ruleslib/rva_032140.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32150",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_032150.cpp",
+      "source_sha256": "7b682d4a8d474548215870d552c6ef48a9a9ab56bc0bddb4a5e7297a571bb53a",
+      "symbol": "?func@Legacy@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_032150.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x321c0",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_0321c0.cpp",
+      "source_sha256": "e129e661b5529a9f8303e51dccba191ca8c7c51635978fa72ac50ba5f1a21e6e",
+      "symbol": "?f@C@@SGHH@Z",
+      "verification": "verification/ruleslib/rva_0321c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32430",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032430.cpp",
+      "source_sha256": "fd8cffeebc22cb0281b3e9d79d0b656f56c18727b7e553dd7586e4c36fe0fd6c",
+      "symbol": "?setField@Foo@@SGXPAUMyStruct@@H@Z",
+      "verification": "verification/ruleslib/rva_032430.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32440",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032440.cpp",
+      "source_sha256": "37387f7e43b3ab50dcd2c86195e87ab948b8cf83d440a497c788f55b94d65417",
+      "symbol": "?foo@MyClass@@SGXPAUMyStruct@@I@Z",
+      "verification": "verification/ruleslib/rva_032440.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32470",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032470.cpp",
+      "source_sha256": "df5bb618ede2d0ae627e388febcd35482913e51e06b155f11e621c352cd749c6",
+      "symbol": "?storeValue@Legacy@@SGXPAII@Z",
+      "verification": "verification/ruleslib/rva_032470.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32480",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032480.cpp",
+      "source_sha256": "eeea2cd91abac8a3cc78c9be9a30fa8b78045f2fe4e09f24c6b41fcdc3d1bb9e",
+      "symbol": "?foo@MyStruct@@SGXPAEI@Z",
+      "verification": "verification/ruleslib/rva_032480.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32490",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032490.cpp",
+      "source_sha256": "b145a6e509179c3de966aa139dcd14b49b0faa8892ad73a27b87fbd17b1c56fd",
+      "symbol": "?readOffset3C@LegacyClass@@QAEIPAX@Z",
+      "verification": "verification/ruleslib/rva_032490.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x325e0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0325e0.cpp",
+      "source_sha256": "66c99d200463aa7d5759d2c9cae9030e964d42c46e9c0dfffe0124ad9adcae39",
+      "symbol": "?getField@MyClass@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_0325e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x325f0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0325f0.cpp",
+      "source_sha256": "6dfe3c406b05045f63ff6fcd6f74dadbae5f93fde246dfa00d59917691559c1a",
+      "symbol": "?setField@MyClass@@SGXPAU1@H@Z",
+      "verification": "verification/ruleslib/rva_0325f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32600",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_032600.cpp",
+      "source_sha256": "4075cf3edd8df576163c9d1742f36806b9aa05f4b3a2f7067a31070cb369c39b",
+      "symbol": "?compute@MyClass@@QAEIII@Z",
+      "verification": "verification/ruleslib/rva_032600.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32640",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_032640.cpp",
+      "source_sha256": "ae5fbdd52f1599bab80621dd15ad1ee3680a160d57a323c37e24aaf5857a4f58",
+      "symbol": "?func@MyClass@@SGHPAV1@I@Z",
+      "verification": "verification/ruleslib/rva_032640.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32650",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_032650.cpp",
+      "source_sha256": "9fc53bdbd45548ba2b962b98c526bddf365ef5a5658c14a68a6d3fcea9a64a0e",
+      "symbol": "?setElement@MyClass@@QAEXPAHHH@Z",
+      "verification": "verification/ruleslib/rva_032650.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x327b0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0327b0.cpp",
+      "source_sha256": "95074e09c951831a50d0b9013122c4fa9b90614e2fe3f328a062c416abfc8a0c",
+      "symbol": "?getValue@MyClass@@SGHPAV1@@Z",
+      "verification": "verification/ruleslib/rva_0327b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32a60",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032a60.cpp",
+      "source_sha256": "78fea6cc95989e14e31c992a8cb0a6ca3bec2039c3e23e4827e7cd831c7adbcc",
+      "symbol": "?getValue@Legacy@@SGIPAX@Z",
+      "verification": "verification/ruleslib/rva_032a60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32aa0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032aa0.cpp",
+      "source_sha256": "c587215b0db467d2f201d317b80d1cdf39c2abefbe50b5eb20f392192fa6bd96",
+      "symbol": "?setZeroAtOffset@MyClass@@QAEXPAH@Z",
+      "verification": "verification/ruleslib/rva_032aa0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ab0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032ab0.cpp",
+      "source_sha256": "fc199edb98f1058b813f57cfa7871819860cbdfc91e3a842c7d832c177cb0d02",
+      "symbol": "?SetField@MyStruct@@SGXPAU1@I@Z",
+      "verification": "verification/ruleslib/rva_032ab0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ac0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_032ac0.cpp",
+      "source_sha256": "23013b671acba13eed0b72c06e90baf0abc15aa860b52c69a5af856b2bc7a32f",
+      "symbol": "?fetch@LegacyTable@@SGGPBXE@Z",
+      "verification": "verification/ruleslib/rva_032ac0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ae0",
+      "size": 22,
+      "source": "src/ruleslib/matched/rva_032ae0.cpp",
+      "source_sha256": "3bc65687129117762ea205ca42c284d03419be1d99785088ea7e4f8a04cf15a5",
+      "symbol": "?setValue@MyStruct@@QAEXPAXEG@Z",
+      "verification": "verification/ruleslib/rva_032ae0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32b20",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_032b20.cpp",
+      "source_sha256": "6958b359a54b986c8faf5a855bdd87592c1ebbabbaf0fbc968bc6e2390d6d72d",
+      "symbol": "?getWordAtOffset@MyClass@@QAEGPBX@Z",
+      "verification": "verification/ruleslib/rva_032b20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32b30",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032b30.cpp",
+      "source_sha256": "d37ddbca1a8433bf349d529bd6e07a5d56781b8af8ca8257d017e401f98fefdd",
+      "symbol": "?setField@Utils@@SGXPAUMyStruct@@G@Z",
+      "verification": "verification/ruleslib/rva_032b30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32b50",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032b50.cpp",
+      "source_sha256": "ea1cf68f6136c5bc4df441c49657774b1c4a8969022eed581f36d9ddc82cec42",
+      "symbol": "?setField@C@@SGXPAUMyStruct@@G@Z",
+      "verification": "verification/ruleslib/rva_032b50.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e00",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032e00.cpp",
+      "source_sha256": "be56d73caa22f00fb39242e21f2e3c59b7432da11841d1de3630cd4af9674042",
+      "symbol": "?add4@Legacy@@SGHH@Z",
+      "verification": "verification/ruleslib/rva_032e00.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e30",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032e30.cpp",
+      "source_sha256": "b36f11a484c43efadb87cfe4dc8ce7466fcf0a1929ff4ab7cfe7c1c1d3e5da97",
+      "symbol": "?getField@MyStruct@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_032e30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e60",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032e60.cpp",
+      "source_sha256": "46b8ff15170bce8b4fd3747d3542f8c6f75c9fa48c23887fa14fe8e35e09cfe0",
+      "symbol": "?getWord@Legacy@@QAEGPAX@Z",
+      "verification": "verification/ruleslib/rva_032e60.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e70",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_032e70.cpp",
+      "source_sha256": "561ab3558e24133f987401966418975ab55a16f74f59bb978dcd4ac192d286f0",
+      "symbol": "?getValue@Legacy@@QBEGPBX@Z",
+      "verification": "verification/ruleslib/rva_032e70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e80",
+      "size": 16,
+      "source": "src/ruleslib/matched/rva_032e80.cpp",
+      "source_sha256": "dcf31cdd78700e4f8266d52bc158165be3c4ba8a76a839a22e968d77b4a87a43",
+      "symbol": "?setField@Legacy@@SGXPAV1@F@Z",
+      "verification": "verification/ruleslib/rva_032e80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32e90",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032e90.cpp",
+      "source_sha256": "dd0b6def4bd3618f756564070d399d2018025e2405e358e9ce8f2cb3b7ae7b39",
+      "symbol": "?readByte@Legacy@@QBEEPBX@Z",
+      "verification": "verification/ruleslib/rva_032e90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ea0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032ea0.cpp",
+      "source_sha256": "a2ce9b13afff2be3a03c19b9db13a9622d9b2118fb6eb2a78c09772f3eb15cb3",
+      "symbol": "?setByte@Legacy@@SGXPAXE@Z",
+      "verification": "verification/ruleslib/rva_032ea0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32eb0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_032eb0.cpp",
+      "source_sha256": "a5e20512bbde818582105c78a7f5269a823468e1c0be674fc173763249c80f5f",
+      "symbol": "?getValue@LegacyClass@@QAEFPBULegacyParam@@@Z",
+      "verification": "verification/ruleslib/rva_032eb0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ec0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032ec0.cpp",
+      "source_sha256": "68fb3a68cd3e89c5da19cb3920692ad8db10ede68a87cb36957c6a4967d5df2f",
+      "symbol": "?readByte@Legacy@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_032ec0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ed0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032ed0.cpp",
+      "source_sha256": "94514276ebd3262e4bb2bb5797c19a0a909f397e9fb49e42a212f34361ad7bd2",
+      "symbol": "?getByte@X@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_032ed0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ee0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032ee0.cpp",
+      "source_sha256": "10d7f3f7f2b23c40a68a586bf9a5c622a53a3c0038cb8ceab9b089afd933dbb1",
+      "symbol": "?setByte@Target@@SGXPAUMyStruct@@E@Z",
+      "verification": "verification/ruleslib/rva_032ee0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32ef0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032ef0.cpp",
+      "source_sha256": "3b12c8a879bc15edd4649e2c3ebcaf49020194bcce9486b119f2118a41200759",
+      "symbol": "?foo@MyClass@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_032ef0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32f00",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032f00.cpp",
+      "source_sha256": "f02f26f6dc7852401f1e6506c173f0e3d75811d48fac7289c98febb62a617b27",
+      "symbol": "?setByte@Legacy@@QAEXPAXE@Z",
+      "verification": "verification/ruleslib/rva_032f00.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32f10",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_032f10.cpp",
+      "source_sha256": "e50f72bb2e2584536e65a92fbad6cd19df22ce0e5bdd7bafc33cb7b2ce25e3f7",
+      "symbol": "?getByte@Legacy@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_032f10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x32f20",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_032f20.cpp",
+      "source_sha256": "dfe612034f9ff5f27b4b7476e58a367881695a9df0c53f5f13a459af1271519f",
+      "symbol": "?SetField@MyStruct@@SGXPAU1@E@Z",
+      "verification": "verification/ruleslib/rva_032f20.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33040",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033040.cpp",
+      "source_sha256": "e6064404590ec3b54aa271d1bc5c77b5c48e4eebf53ac2e54e3e64aa91a8f939",
+      "symbol": "?method@MyClass@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_033040.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33050",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033050.cpp",
+      "source_sha256": "49a3ed142f2078eeedb4ed557cfea2324a7851d03c2bc099bce8ec6a790a2e5b",
+      "symbol": "?foo@MyClass@@QAEEPAH@Z",
+      "verification": "verification/ruleslib/rva_033050.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33060",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_033060.cpp",
+      "source_sha256": "2e9718b0647f1312df726381e2feaf6e1ef2c03277dd3b9ba9e58659f7e50fc9",
+      "symbol": "?check@Checker@@QBE_NPBUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_033060.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33110",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_033110.cpp",
+      "source_sha256": "117218f9288cfcba68bad691bfda4bb58037a0e63921c621efcfc8fd1d2b7cdc",
+      "symbol": "?getField@Legacy@@QBEHPAX@Z",
+      "verification": "verification/ruleslib/rva_033110.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33350",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033350.cpp",
+      "source_sha256": "63cca3974e14a411c6821185a8a77dafea1dbf842652e3a361ec97a6b4d2bef9",
+      "symbol": "?func@Legacy@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_033350.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33380",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_033380.cpp",
+      "source_sha256": "7672441175d573e5a62d1656edfbd6b03820f7cdbddf65465944133d05f20cca",
+      "symbol": "?foo@MyClass@@SGHH@Z",
+      "verification": "verification/ruleslib/rva_033380.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33390",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033390.cpp",
+      "source_sha256": "9cf305027413ad154c76742bf2c5fac4c84640e5f8d846abf89fa5d3bf31a2bc",
+      "symbol": "?foo@C@@SGHH@Z",
+      "verification": "verification/ruleslib/rva_033390.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33540",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_033540.cpp",
+      "source_sha256": "1e34c0ffd81fae72128cdf8a6fcec9b875db1325d177add6c9a11074b68f147d",
+      "symbol": "?getValue@MyClass@@QAEIPAVMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_033540.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33550",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033550.cpp",
+      "source_sha256": "55acac3d12d247fe0e7862c0d80d9493d21958b1ab9bbad5612de533169e5a14",
+      "symbol": "?getByte@Legacy@@QBEEPBX@Z",
+      "verification": "verification/ruleslib/rva_033550.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33570",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033570.cpp",
+      "source_sha256": "f359f24eaa78c7bdf1eb657e30ef7957603a77462b57bcd50d6d7a5e7e4cfdfe",
+      "symbol": "?foo@MyClass@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_033570.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33590",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033590.cpp",
+      "source_sha256": "7264025e9dca976f467833f97f64dd566841ff8e02f2093ad7378690f4bcf044",
+      "symbol": "?readOffset@Legacy@@QAEHPAH@Z",
+      "verification": "verification/ruleslib/rva_033590.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x335a0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0335a0.cpp",
+      "source_sha256": "0370bf7fe7701e589e9b36dd01faf1e41b77b33ad5b6c323a70609ca13749c97",
+      "symbol": "?func@MyClass@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_0335a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x335b0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0335b0.cpp",
+      "source_sha256": "20d5057f79701d1a98975a906a9dd768eb1a6794ed989000e76f878144c7538f",
+      "symbol": "?getByte@Legacy@@QBEEPBX@Z",
+      "verification": "verification/ruleslib/rva_0335b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x335d0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0335d0.cpp",
+      "source_sha256": "cf69b3740265a51e3e10a7bc671c8bf2e72ded0e12d5e6ed1a9d1bafb8752c11",
+      "symbol": "?getValue@Legacy@@QAEMPAX@Z",
+      "verification": "verification/ruleslib/rva_0335d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x335e0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_0335e0.cpp",
+      "source_sha256": "e136f0673a938ef1d02de7d335063a4bb7862eea89cac5c92645d72a8f0a5bba",
+      "symbol": "?getField@Legacy@@QAEFPAX@Z",
+      "verification": "verification/ruleslib/rva_0335e0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x335f0",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_0335f0.cpp",
+      "source_sha256": "f3327437211c8e887a68566c12c60c2fc24102191511f5fd1fb3e40a3dca61f8",
+      "symbol": "?getValue@MyClass@@QAEMPAUMyStruct@@@Z",
+      "verification": "verification/ruleslib/rva_0335f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33600",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033600.cpp",
+      "source_sha256": "a130988ffebd78b5048bfa19530b114aac2c41ae7fef961021a5c061a8ef5958",
+      "symbol": "?method@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_033600.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33610",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033610.cpp",
+      "source_sha256": "a6f0b66618a1fc68c82983e5eaaa0d18235a96250c186d8ae5d8e21f3826cafe",
+      "symbol": "?getByte@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_033610.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33630",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033630.cpp",
+      "source_sha256": "7d1e3a315b12682bc7b470ccc33c0fc10690cb6e70c9427ef895ab8a0382a9bd",
+      "symbol": "?foo@MyClass@@SGEI@Z",
+      "verification": "verification/ruleslib/rva_033630.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33660",
+      "size": 15,
+      "source": "src/ruleslib/matched/rva_033660.cpp",
+      "source_sha256": "614ebf5ba8e2a15656450a6e2f1fec290cdaa0be262914f0063fef94c54fb305",
+      "symbol": "?getByteC0@MyClass@@QAEGPAX@Z",
+      "verification": "verification/ruleslib/rva_033660.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33670",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_033670.cpp",
+      "source_sha256": "d65c2e281b714a019d03bf9e326d03a5911cc94956946b92e6f2ab0c5861299a",
+      "symbol": "?get_byte@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_033670.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33690",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033690.cpp",
+      "source_sha256": "c35d23494b34e665d9b6d485609cf1209fd09f6dc98612a4d6f931abb40bc1c7",
+      "symbol": "?getField@MyClass@@QAEEPBUSomeStruct@@@Z",
+      "verification": "verification/ruleslib/rva_033690.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x336c0",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_0336c0.cpp",
+      "source_sha256": "b65e28c42eb46be2204e118f54d180fcdbee516d1ef9dd5f3d9c9e2ed62466ff",
+      "symbol": "?getByte@Legacy@@QAEHPAX@Z",
+      "verification": "verification/ruleslib/rva_0336c0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x336d0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0336d0.cpp",
+      "source_sha256": "30d2bf13359d2521f3846a40b99dfbbbea1db8984397b6e581d2d21ef360a5f3",
+      "symbol": "?getField@Legacy@@SGKPBX@Z",
+      "verification": "verification/ruleslib/rva_0336d0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x336f0",
+      "size": 13,
+      "source": "src/ruleslib/matched/rva_0336f0.cpp",
+      "source_sha256": "400fc02fcbf9f61c359584c2cb9cb3bcef273b6058272856d26578ea3f3c1e7b",
+      "symbol": "?getByte@Legacy@@QAEEPAX@Z",
+      "verification": "verification/ruleslib/rva_0336f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33700",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033700.cpp",
+      "source_sha256": "73e51e677de74675dd9543902d79bfabd9cb7ac37179e66c1aae806088f014e3",
+      "symbol": "?getByte@Legacy@@SGEPAX@Z",
+      "verification": "verification/ruleslib/rva_033700.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x33710",
+      "size": 10,
+      "source": "src/ruleslib/matched/rva_033710.cpp",
+      "source_sha256": "dc996a2df8b029bba15eb934f920b8d797c41528cfcd9af74ead956d99f5c846",
+      "symbol": "?getByte@Legacy@@QAEEPBX@Z",
+      "verification": "verification/ruleslib/rva_033710.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x39840",
+      "size": 26,
+      "source": "src/ruleslib/matched/rva_039840.cpp",
+      "source_sha256": "48629fa93508bb05d985ceb46a9c2c8484e961550f32a785c0be470d4075ab77",
+      "symbol": "?copyTo@MyStruct@@QBEPAXPAX@Z",
+      "verification": "verification/ruleslib/rva_039840.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x398b0",
+      "size": 18,
+      "source": "src/ruleslib/matched/rva_0398b0.cpp",
+      "source_sha256": "67aa88dd43f3729268f477f851c973621f1bbcba958d45ec73b6bc3566a1ae22",
+      "symbol": "?scan@MyClass@@QAEEXZ",
+      "verification": "verification/ruleslib/rva_0398b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x39f30",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_039f30.cpp",
+      "source_sha256": "96a91f7ffda59bb1e3a625ecc13fdc555f365406cdfd8988846c2d8a43522cd4",
+      "symbol": "?reset@Legacy@@QAEXXZ",
+      "verification": "verification/ruleslib/rva_039f30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x39f40",
+      "size": 89,
+      "source": "src/ruleslib/matched/rva_039f40.cpp",
+      "source_sha256": "9fbbc68d58993595105ff870fd7c1ae8246851b4143b0d3d51cab4193d1b8161",
+      "symbol": "?func@Foo@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_039f40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x39fa0",
+      "size": 11,
+      "source": "src/ruleslib/matched/rva_039fa0.cpp",
+      "source_sha256": "d55d53b2deffb982c52d087ea5d1095c769346f60d4eae25214f2e43b0718000",
+      "symbol": "?setFlag@Legacy@@QAEXXZ",
+      "verification": "verification/ruleslib/rva_039fa0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3a070",
+      "size": 60,
+      "source": "src/ruleslib/matched/rva_03a070.cpp",
+      "source_sha256": "d9fbc8c1ba762306f4b82f9e5df6830d3118abb81020e87161bc294581ce3b28",
+      "symbol": "?compare@MyObject@@QBEHPBV1@@Z",
+      "verification": "verification/ruleslib/rva_03a070.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x3ea40",
+      "size": 42,
+      "source": "src/ruleslib/matched/rva_03ea40.cpp",
+      "source_sha256": "ba34b666b2a195e7976a0d898d44b898c3b7ebb50487b8a7f577dd531a4f7042",
+      "symbol": "?count@Counter@@QAEIPBDI@Z",
+      "verification": "verification/ruleslib/rva_03ea40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x404b0",
+      "size": 52,
+      "source": "src/ruleslib/matched/rva_0404b0.cpp",
+      "source_sha256": "928daef9ecc08a1d22948b263d4af4edc48eccc4251baa2fb551f45c394fc5c4",
+      "symbol": "?compute@LegacyClass@@QAEIPAUArg1@@PAI@Z",
+      "verification": "verification/ruleslib/rva_0404b0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x404f0",
+      "size": 58,
+      "source": "src/ruleslib/matched/rva_0404f0.cpp",
+      "source_sha256": "f9d9b3a6c8b6a17f5ef5df54008904dc4901be5a23e76880d504d713fcdcbd5f",
+      "symbol": "?compute@MyClass@@QAEIPAUParamStruct@@PAI@Z",
+      "verification": "verification/ruleslib/rva_0404f0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x42390",
+      "size": 102,
+      "source": "src/ruleslib/matched/rva_042390.cpp",
+      "source_sha256": "55ef623c0a65a79ebd51bd40e7083ba9d6db792f596c625928f4d014e6af9e0e",
+      "symbol": "?myfunc@MyClass@@QAEXIII@Z",
+      "verification": "verification/ruleslib/rva_042390.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x425a0",
+      "size": 21,
+      "source": "src/ruleslib/matched/rva_0425a0.cpp",
+      "source_sha256": "1185b9fbc910bd20c382ccc5c2365860f6141a269a1c2deb8f8358a7bdccd4cd",
+      "symbol": "?func@MyClass@@QAEXPAUMyStruct@@HH@Z",
+      "verification": "verification/ruleslib/rva_0425a0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x46100",
+      "size": 14,
+      "source": "src/ruleslib/matched/rva_046100.cpp",
+      "source_sha256": "281f53932ac0599b16292ba310fba549903c8f104d4b8c58e33a1bf34ee1dc97",
+      "symbol": "?getValue@MyClass@@QBEII@Z",
+      "verification": "verification/ruleslib/rva_046100.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x46110",
+      "size": 42,
+      "source": "src/ruleslib/matched/rva_046110.cpp",
+      "source_sha256": "c68afe453a0433f170e3c2caa3ed1e6d065efc44f7fbb1da0043a2b913422b43",
+      "symbol": "?clear@MyStruct@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_046110.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x47cc0",
+      "size": 20,
+      "source": "src/ruleslib/matched/rva_047cc0.cpp",
+      "source_sha256": "478f57f89c801ff091fac0e4c26127e99fb28fe4ea7a04fb4421f63c06a20157",
+      "symbol": "?init@Legacy@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_047cc0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x47d70",
+      "size": 19,
+      "source": "src/ruleslib/matched/rva_047d70.cpp",
+      "source_sha256": "6e1178ceab3ddb50c035b54d76f4064ed600065c67a6b9ec45a478ae5efcbb05",
+      "symbol": "?clear@Legacy@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_047d70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x47d90",
+      "size": 23,
+      "source": "src/ruleslib/matched/rva_047d90.cpp",
+      "source_sha256": "1cbff13e09223dc16dc5068c2c79447fd0287bb0acceba19c4cd17defb52fa7c",
+      "symbol": "?update@LegacyObject@@QAEXXZ",
+      "verification": "verification/ruleslib/rva_047d90.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x47db0",
+      "size": 40,
+      "source": "src/ruleslib/matched/rva_047db0.cpp",
+      "source_sha256": "f1912649cba99ef434a01032c80fde910c7db9af0f225a63dc65e0360fb60ffa",
+      "symbol": "?init@LegacyObject@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_047db0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x47ed0",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_047ed0.cpp",
+      "source_sha256": "e650e4615e9fe02cc6298d9455d48abc09c4f56ed095d1410d4ede6229365230",
+      "symbol": "?getValue@Legacy@@QBEHH@Z",
+      "verification": "verification/ruleslib/rva_047ed0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48570",
+      "size": 17,
+      "source": "src/ruleslib/matched/rva_048570.cpp",
+      "source_sha256": "bd001c6d7bb033cc3f8fc49b54e8f608449076fb7b8e64781948cabb7eace694",
+      "symbol": "?foo@MyClass@@QAEHH@Z",
+      "verification": "verification/ruleslib/rva_048570.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48590",
+      "size": 39,
+      "source": "src/ruleslib/matched/rva_048590.cpp",
+      "source_sha256": "525ab2e4eac103a2a39e2b76d7742bd1c7c10f267f260b8f0ce67d7df5f2a200",
+      "symbol": "?Init@Legacy@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_048590.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48e40",
+      "size": 50,
+      "source": "src/ruleslib/matched/rva_048e40.cpp",
+      "source_sha256": "a74c90e55e21867573014cdc9323d4a31872887e440b8322c18e0014f0ae9a36",
+      "symbol": "?getByte@Legacy@@QBEEH@Z",
+      "verification": "verification/ruleslib/rva_048e40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48ec0",
+      "size": 78,
+      "source": "src/ruleslib/matched/rva_048ec0.cpp",
+      "source_sha256": "5444b3ac38a85634b24679403d008f5c73604d72c3d49ca6b0f7a053736320a3",
+      "symbol": "?find@Legacy@@QAEHDH@Z",
+      "verification": "verification/ruleslib/rva_048ec0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48f10",
+      "size": 32,
+      "source": "src/ruleslib/matched/rva_048f10.cpp",
+      "source_sha256": "92ec157cfe75b5cee1fa263f2b293ff6215e34d34bd3bc19db40cc749b0a24a0",
+      "symbol": "?find_last@Legacy@@QAEHE@Z",
+      "verification": "verification/ruleslib/rva_048f10.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48f30",
+      "size": 78,
+      "source": "src/ruleslib/matched/rva_048f30.cpp",
+      "source_sha256": "728ff01341d89219e2c54dab9b4cad2495400312ffd9916c68fb135ce7fc0880",
+      "symbol": "?func@Legacy@@QAEHDH@Z",
+      "verification": "verification/ruleslib/rva_048f30.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48fa0",
+      "size": 46,
+      "source": "src/ruleslib/matched/rva_048fa0.cpp",
+      "source_sha256": "22d30086dbe379723517acdafb14fd89bbe63395cc2874e26f0322c8d500faf2",
+      "symbol": "?modify@LegacyObject@@QAEXHD@Z",
+      "verification": "verification/ruleslib/rva_048fa0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x48fd0",
+      "size": 20,
+      "source": "src/ruleslib/matched/rva_048fd0.cpp",
+      "source_sha256": "2e56b49bda7bd3878dd71441debcd7c78c2c1479a6fd1ab0b58f999be53ff626",
+      "symbol": "?check@Legacy@@QBEHXZ",
+      "verification": "verification/ruleslib/rva_048fd0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4aab0",
+      "size": 20,
+      "source": "src/ruleslib/matched/rva_04aab0.cpp",
+      "source_sha256": "ca59f43776c3c0959b7970e10b46f51a8ae49634ec9caa9167e7cf8063f5dc9e",
+      "symbol": "?f@X@@QAEPAU1@XZ",
+      "verification": "verification/ruleslib/rva_04aab0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4b190",
+      "size": 12,
+      "source": "src/ruleslib/matched/rva_04b190.cpp",
+      "source_sha256": "95190db34645501131933316ad0a014f6a624bd34a0d32dbb80f2bf4cf0e4e4a",
+      "symbol": "?check@Legacy@@QBE_NXZ",
+      "verification": "verification/ruleslib/rva_04b190.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x4cf50",
+      "size": 28,
+      "source": "src/ruleslib/matched/rva_04cf50.cpp",
+      "source_sha256": "f2a861c5f3b99a2156a9fc740f3501e1121e5bbe01118d9ae1897ac1abf40262",
+      "symbol": "?len@Legacy@@QBEIXZ",
+      "verification": "verification/ruleslib/rva_04cf50.json"
+    }
+  ]
+}
