@@ -102,6 +102,10 @@ See [validation results and limitations](docs/VALIDATION.md) before treating thi
 as a fully validated installer-to-contribution path; GOG-installer extraction and
 live paid-provider end-to-end validation remain outstanding.
 
+## Contact
+
+Contact the project maintainer at [nwn2reassembled@proton.me](mailto:nwn2reassembled@proton.me).
+
 ## License and provenance
 
 Project-authored code is offered under MIT; see `LICENSE` and `PROVENANCE.md`.
