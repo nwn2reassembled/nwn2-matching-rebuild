@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "binary": "nwn2main.exe",
+  "rva": "0x26aa0",
+  "size": 1,
+  "source": "src/client/matched/rva_026aa0.cpp",
+  "source_sha256": "d6174643cef9a77472a4aca60e43c8c0c442d91b4cb8054c10ec95e01444d3bd",
+  "symbol": "?foo@MyClass@@QAEXXZ",
+  "verification": "verification/client/rva_026aa0.json",
+  "binary_sha256": "bd599aa8cb680e44516e18a8847f0edd201a331227af94baf20fc5f74ff605ae",
+  "original_verification_receipt_sha256": "2f53b6f9b4b0fe62be6811c95607dd6bc7ed726801d009807a2d8084761f1666",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 1,
+    "candidate_size": 1,
+    "reference_sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+    "candidate_sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+    "equal_bytes_at_same_offset": 1,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 1,
+    "candidate_size": 1,
+    "reference_sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+    "candidate_sha256": "ae3f4619b0413d70d3004b9131c3752153074e45725be13b9a148978895e359e",
+    "equal_bytes_at_same_offset": 1,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "repair_scope": "none",
+    "verdict": "exact-model-source",
+    "drafting_model": "gpt-oss:20b",
+    "unaided_model_success": true,
+    "assisted_context": false
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

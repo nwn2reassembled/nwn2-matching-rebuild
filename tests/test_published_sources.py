@@ -9,16 +9,18 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class PublishedSourcesTest(unittest.TestCase):
     def test_snapshot_integrity(self):
-        index = json.loads((ROOT / 'src/ruleslib/matched/index.json').read_text())
+        index = json.loads((ROOT / 'src/matched/index.json').read_text())
         functions = index['functions']
-        self.assertEqual(len(functions), 357)
-        self.assertEqual(len({f['source'] for f in functions}), 355)
-        self.assertEqual(sum(f['size'] for f in functions), 8543)
-        self.assertEqual(len({f['rva'] for f in functions}), 357)
-        end = 0
+        self.assertEqual(len(functions), 522)
+        self.assertEqual(len({f['source'] for f in functions}), 520)
+        self.assertEqual(sum(f['size'] for f in functions), 10826)
+        self.assertEqual(len({(f['binary'], f['rva']) for f in functions}), 522)
+        self.assertEqual(index['verified_function_count'], len(functions))
+        self.assertEqual(index['known_corpus_items'], 53853)
+        ends = {}
         for f in functions:
-            self.assertGreaterEqual(int(f['rva'], 0), end)
-            end = int(f['rva'], 0) + f['size']
+            self.assertGreaterEqual(int(f['rva'], 0), ends.get(f['binary'], 0))
+            ends[f['binary']] = int(f['rva'], 0) + f['size']
             self.assertEqual(hashlib.sha256((ROOT / f['source']).read_bytes()).hexdigest(), f['source_sha256'])
             receipt = json.loads((ROOT / f['verification']).read_text())
             for key in ('source', 'source_sha256', 'rva', 'size', 'symbol'):
@@ -31,3 +33,20 @@ class PublishedSourcesTest(unittest.TestCase):
             self.assertEqual(receipt['normalization'], 'none')
             self.assertFalse(receipt['publication_source_edited'])
             self.assertFalse(receipt['whole_file_identity'])
+
+    def test_per_binary_indexes_reconcile(self):
+        combined = json.loads((ROOT / 'src/matched/index.json').read_text())
+        functions = []
+        for lane in ('ruleslib', 'server', 'client'):
+            index = json.loads((ROOT / f'src/{lane}/matched/index.json').read_text())
+            self.assertEqual(index['verified_function_count'], len(index['functions']))
+            self.assertEqual(index['matched_instruction_bytes'], sum(f['size'] for f in index['functions']))
+            functions.extend(index['functions'])
+        self.assertEqual(sorted(functions, key=lambda f: (f['binary'], int(f['rva'], 0))), combined['functions'])
+
+    def test_readme_counter_and_process_diagram(self):
+        readme = (ROOT / 'README.md').read_text()
+        self.assertIn('## **522 / 53,853', readme)
+        self.assertIn('```mermaid\nflowchart TD', readme)
+        self.assertIn('Whole-file identity: 0 / 6', readme)
+        self.assertIn('once every 24 hours', readme)

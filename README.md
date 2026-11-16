@@ -1,27 +1,69 @@
 # NWN2 matching rebuild
 
+## **522 / 53,853 — VERIFIED & PUBLISHED**
+
+**Complete, unmasked function matches · 10,826 instruction bytes · Whole-file identity: 0 / 6**
+
+Frozen source snapshot: **16 November 2026**. The denominator includes **53,367
+known code routines and 486 resources** across six pinned files; it is not a
+percentage of rebuilt bytes or game completion.
+
 Research toward rebuilding six pinned classic GOG Neverwinter Nights 2 files
 byte for byte from readable source. This is not a source port, a patched game,
 or a playable replacement. No complete artifact is claimed to match.
 
-The current source snapshot publishes **357 verified functions in 355 source files**
-from `NWN2RulesLib.dll`, covering **8,543 exact instruction bytes**.
-Browse the [reconstructed C/C++ source](src/ruleslib/matched) and its
-[RVA-to-source index](src/ruleslib/matched/index.json).
+The current source snapshot publishes **522 verified functions in 520 source files**:
+**502 rules-library, 16 server and 4 client functions**.
+Browse the [combined binary/RVA-to-source index](src/matched/index.json),
+[rules-library source](src/ruleslib/matched), [server source](src/server/matched),
+and [client source](src/client/matched).
 The bounded Compose contributor worker is described below; validation limits are
 recorded in the startup guide.
 
 ## Reconstruction progress
 
-**357 / 53,853 known items exactly matched** — published snapshot, 14 November 2026.
+**522 / 53,853 known items exactly matched** — published snapshot, 16 November 2026.
 These are complete function matches across an unweighted worklist, not a percentage
 of rebuilt file bytes. **Whole-file identity: 0 / 6.**
 
 See [the project website](https://nwn2reassembled.fyi/#reconstruction) for newer
-aggregate snapshots, refreshed every three hours. This count covers the research
-project. This release includes source for all 357 functions in its frozen ledger;
+aggregate snapshots, refreshed once every 24 hours. This count covers the research
+project. This release includes source for all 522 functions in its frozen ledger;
 later private progress is not automatically published. The earlier README snapshot
-was 288 / 53,853.
+was 357 / 53,853.
+
+## How reconstruction works
+
+```mermaid
+flowchart TD
+    A[Lawfully supplied originals] --> B[Verify immutable SHA-256 pins]
+    B --> C[Inventory all 53,853 known items]
+    C --> D{Validated reconstruction lane?}
+    D -->|Not yet| U[Keep explicitly unattempted; develop missing lane]
+    U -.-> D
+    D -->|Yes| E[Check prior history and remaining budget]
+    E --> F[Draft readable source from bounded target evidence]
+    F --> G[Compile with pinned toolchain in isolation]
+    G --> H{Complete unmasked bytes match?}
+    H -->|No| I[Record feedback; retry only within remaining budget]
+    I -->|Budget remains| F
+    I -->|Exhausted| J[Retain for review; no credit or budget reset]
+    H -->|Yes| K[Independent repeat builds and boundary verification]
+    K --> L{All checks pass?}
+    L -->|No| J
+    L -->|Yes| M[Promote function to verified ledger]
+    M --> N[Review provenance; publish unchanged source and hash receipts]
+    N --> O[Update public counter]
+```
+
+Every attempt or operational failure is recorded and synchronized additively to
+the shared research knowledge base, with verified readback before another attempt.
+Drafting is idle-only; compiler, ledger and knowledge-base writes are serialized.
+Native leaves are the active bulk lane. General-native dependencies, managed
+methods and resources need additional validated execution paths; an inventory or
+diagram does not make those lanes complete. Function credit is **not** a linked
+image-region match or whole-file identity. Publication summarizes recorded
+verification; it does not claim a fresh compilation at publication time.
 
 ## Included
 
@@ -31,7 +73,7 @@ was 288 / 53,853.
 - Three exploratory C implementations reconstructed from instruction-level
   analysis. They contain no embedded original instruction bytes. These particular
    C files are not a claim of pinned-compiler exactness or complete-game behavior.
-- 355 unchanged matching C/C++ source files with 357 per-function hash-only
+- 520 unchanged matching C/C++ source files with 522 per-function hash-only
   verification records. These are independent compilation probes, not a combined
   DLL build; names/types are hypotheses. See the [source guide](src/ruleslib/matched/README.md).
 - OpenAI, Anthropic and DeepSeek drafting adapters, plus a source-and-hashes-only

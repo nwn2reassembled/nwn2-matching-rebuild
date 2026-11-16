@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-16",
+  "known_corpus_items": 53853,
+  "verified_function_count": 4,
+  "published_source_file_count": 4,
+  "matched_instruction_bytes": 19,
+  "whole_file_identity": false,
+  "functions": [
+    {
+      "binary": "nwn2main.exe",
+      "rva": "0x1280",
+      "size": 3,
+      "source": "src/client/matched/rva_001280.cpp",
+      "source_sha256": "b4797b9fb9260d1ef9c6cfa3b4a703dbde24a74754d3de1db00dcd01950bd714",
+      "symbol": "?getValue@MyClass@@QAEHXZ",
+      "verification": "verification/client/rva_001280.json"
+    },
+    {
+      "binary": "nwn2main.exe",
+      "rva": "0x7d60",
+      "size": 6,
+      "source": "src/client/matched/rva_007d60.cpp",
+      "source_sha256": "7961a61f14e079f8b2c127bedd230c263e600519edf326d979d33f84cb18059b",
+      "symbol": "?foo@MyClass@@QAEHXZ",
+      "verification": "verification/client/rva_007d60.json"
+    },
+    {
+      "binary": "nwn2main.exe",
+      "rva": "0x248f0",
+      "size": 9,
+      "source": "src/client/matched/rva_0248f0.cpp",
+      "source_sha256": "f0a3fd23fa55ace7e5aafdd6354040c1e56b9f9cf6fd2b6a59acb9a12be82882",
+      "symbol": "?compute@MyStruct@@QBEHXZ",
+      "verification": "verification/client/rva_0248f0.json"
+    },
+    {
+      "binary": "nwn2main.exe",
+      "rva": "0x26aa0",
+      "size": 1,
+      "source": "src/client/matched/rva_026aa0.cpp",
+      "source_sha256": "d6174643cef9a77472a4aca60e43c8c0c442d91b4cb8054c10ec95e01444d3bd",
+      "symbol": "?foo@MyClass@@QAEXXZ",
+      "verification": "verification/client/rva_026aa0.json"
+    }
+  ]
+}

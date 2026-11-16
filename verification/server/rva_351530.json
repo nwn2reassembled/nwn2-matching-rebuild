@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "binary": "nwn2server.exe",
+  "rva": "0x351530",
+  "size": 16,
+  "source": "src/server/matched/rva_351530.cpp",
+  "source_sha256": "ef352ce46c49088952eb809c09b91847e2fa136f4138e0ca775fe32a5814dbe0",
+  "symbol": "??0Legacy@@QAE@XZ",
+  "verification": "verification/server/rva_351530.json",
+  "binary_sha256": "e2e601be2f0626b42bb01896b35d428cfe66eb2b223fd39ed2fd1a49e4f12e95",
+  "original_verification_receipt_sha256": "5d61c692fe429b8656d1f72be6339ce9479a4c4f9741bb533dfdce47ceef565a",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 16,
+    "candidate_size": 16,
+    "reference_sha256": "9d20fb9737545d0eeb198c79dc5d325beabd6d570a4058d3f1e7f4a887df0403",
+    "candidate_sha256": "9d20fb9737545d0eeb198c79dc5d325beabd6d570a4058d3f1e7f4a887df0403",
+    "equal_bytes_at_same_offset": 16,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 16,
+    "candidate_size": 16,
+    "reference_sha256": "9d20fb9737545d0eeb198c79dc5d325beabd6d570a4058d3f1e7f4a887df0403",
+    "candidate_sha256": "9d20fb9737545d0eeb198c79dc5d325beabd6d570a4058d3f1e7f4a887df0403",
+    "equal_bytes_at_same_offset": 16,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "repair_scope": "none",
+    "verdict": "exact-model-source",
+    "drafting_model": "gpt-oss:20b",
+    "unaided_model_success": true,
+    "assisted_context": false
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

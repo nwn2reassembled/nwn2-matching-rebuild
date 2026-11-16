@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-16",
+  "known_corpus_items": 53853,
+  "verified_function_count": 16,
+  "published_source_file_count": 16,
+  "matched_instruction_bytes": 267,
+  "whole_file_identity": false,
+  "functions": [
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x13f0",
+      "size": 4,
+      "source": "src/server/matched/rva_0013f0.cpp",
+      "source_sha256": "37a234a5aa61e199bed7536906ee225e711969c33dccec73a7f700bfff4d4adc",
+      "symbol": "?getValue@MyStruct@@QBEHXZ",
+      "verification": "verification/server/rva_0013f0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x1b30",
+      "size": 3,
+      "source": "src/server/matched/rva_001b30.cpp",
+      "source_sha256": "14af07e88d2f0766921d045793d113a93d3b5ba0ba814eb40d0aa48f35f0a2c2",
+      "symbol": "?foo@MyStruct@@QBEHXZ",
+      "verification": "verification/server/rva_001b30.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x2a80",
+      "size": 6,
+      "source": "src/server/matched/rva_002a80.cpp",
+      "source_sha256": "494834e5f7908b36b676daa1d344a7b9ab80029d9a19d778fa1f44e311fed470",
+      "symbol": "?f@X@@QAEHXZ",
+      "verification": "verification/server/rva_002a80.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xd500",
+      "size": 1,
+      "source": "src/server/matched/rva_00d500.cpp",
+      "source_sha256": "c25431aaad5c8391045d69c037ebe811e7d8ff33e14fe61a06434b1e8a9ba622",
+      "symbol": "?legacyFunc@Legacy@@QAEXXZ",
+      "verification": "verification/server/rva_00d500.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x346580",
+      "size": 17,
+      "source": "src/server/matched/rva_346580.cpp",
+      "source_sha256": "b0556d77c32eff1bd43d86530e70efda5a1d5f918c40ecc8dc2eb74a4dac37ef",
+      "symbol": "?init@Legacy@@QAEHXZ",
+      "verification": "verification/server/rva_346580.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x347de0",
+      "size": 17,
+      "source": "src/server/matched/rva_347de0.cpp",
+      "source_sha256": "eaae0a7e2134356b63acce9b6afa0b216f63bb7ac8fa35c093842d8c38bc9e4e",
+      "symbol": "?clear@Legacy@@QAEHXZ",
+      "verification": "verification/server/rva_347de0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x34a090",
+      "size": 28,
+      "source": "src/server/matched/rva_34a090.cpp",
+      "source_sha256": "993fcf5b3db9a10049a97856d98a48ea8e5cdd21515a132c5f30c5be656f8da9",
+      "symbol": "?setAll@MyStruct@@QAEXM@Z",
+      "verification": "verification/server/rva_34a090.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x34e070",
+      "size": 11,
+      "source": "src/server/matched/rva_34e070.cpp",
+      "source_sha256": "8cd69d71fe6c2dd7729b5f6b0d115600276d6376030685e56c4fdc3f353a42a8",
+      "symbol": "?func@MyClass@@QAEIXZ",
+      "verification": "verification/server/rva_34e070.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x351530",
+      "size": 16,
+      "source": "src/server/matched/rva_351530.cpp",
+      "source_sha256": "ef352ce46c49088952eb809c09b91847e2fa136f4138e0ca775fe32a5814dbe0",
+      "symbol": "??0Legacy@@QAE@XZ",
+      "verification": "verification/server/rva_351530.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x3616a0",
+      "size": 12,
+      "source": "src/server/matched/rva_3616a0.cpp",
+      "source_sha256": "f74305f2d7bed6ab013e637bc0347a82e988ac6683122049b5c36c7207d1c8c2",
+      "symbol": "?test@Legacy@@QBEHXZ",
+      "verification": "verification/server/rva_3616a0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x371250",
+      "size": 32,
+      "source": "src/server/matched/rva_371250.cpp",
+      "source_sha256": "d0bc515c674fe22937275f0878fad668a3d045fca7be5e5a1ef4c77b458592e2",
+      "symbol": "?clear@MyStruct@@QAEPAU1@XZ",
+      "verification": "verification/server/rva_371250.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x378940",
+      "size": 33,
+      "source": "src/server/matched/rva_378940.cpp",
+      "source_sha256": "c6433bdc94726e83055cfc77391a9a1629841f5b1046b59dab2ab572cbe86955",
+      "symbol": "?setValues@Legacy@@QAEXMMM@Z",
+      "verification": "verification/server/rva_378940.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x3898f0",
+      "size": 12,
+      "source": "src/server/matched/rva_3898f0.cpp",
+      "source_sha256": "c00c9d2f7ae335568a4ff991945f420050d199175c4042e41399afbd43cc318e",
+      "symbol": "?get@MyClass@@QAEHH@Z",
+      "verification": "verification/server/rva_3898f0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x389960",
+      "size": 12,
+      "source": "src/server/matched/rva_389960.cpp",
+      "source_sha256": "837d367b5bd108d91dca3d3e850b00e45055cc9a060cab043b9bade7f5c725a5",
+      "symbol": "?get@MyStruct@@QBEHH@Z",
+      "verification": "verification/server/rva_389960.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x38e4b0",
+      "size": 12,
+      "source": "src/server/matched/rva_38e4b0.cpp",
+      "source_sha256": "8fa66634a324070ca944e0b68ee610ce2465c55ee2738918b1937b6293173a8d",
+      "symbol": "?foo@MyClass@@QAEHH@Z",
+      "verification": "verification/server/rva_38e4b0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0x399b60",
+      "size": 51,
+      "source": "src/server/matched/rva_399b60.cpp",
+      "source_sha256": "4712e41351da4e265485a7995b2512abc4e2686c335ccfd462418fe90786f138",
+      "symbol": "??0X@@QAE@XZ",
+      "verification": "verification/server/rva_399b60.json"
+    }
+  ]
+}
