@@ -1,5 +1,19 @@
 # NWN2 matching rebuild
 
+<!-- BEGIN daily research progress -->
+## **911 / 53,853 — VERIFIED RESEARCH PROGRESS**
+
+**14,662 exact instruction bytes · Whole-file identity: 0 / 6**
+
+Daily snapshot: **2026-11-19**, synchronized with the
+[website and RSS](https://nwn2reassembled.fyi/#reconstruction) at 00:00 UTC.
+These are research totals, not a rebuilt-game release or file-byte percentage.
+The separately reviewed source release below contains **522
+functions** (source snapshot: 2026-11-16); this
+daily heartbeat does not publish additional private source.
+[Machine-readable progress](docs/research-progress.json).
+<!-- END daily research progress -->
+
 ## **522 / 53,853 — VERIFIED & PUBLISHED**
 
 **Complete, unmasked function matches · 10,826 instruction bytes · Whole-file identity: 0 / 6**

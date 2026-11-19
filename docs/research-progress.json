@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-19",
+  "known_corpus_items": 53853,
+  "verified_functions": 911,
+  "exact_instruction_bytes": 14662,
+  "whole_file_identities": 0,
+  "target_files": 6,
+  "files": [
+    {
+      "name": "nwn2main.exe",
+      "known_items": 16797,
+      "verified_functions": 137,
+      "exact_instruction_bytes": 1687,
+      "whole_file_identity": false
+    },
+    {
+      "name": "nwn2server.exe",
+      "known_items": 13855,
+      "verified_functions": 80,
+      "exact_instruction_bytes": 462,
+      "whole_file_identity": false
+    },
+    {
+      "name": "NWN2RulesLib.dll",
+      "known_items": 5704,
+      "verified_functions": 694,
+      "exact_instruction_bytes": 12513,
+      "whole_file_identity": false
+    },
+    {
+      "name": "NWN2Toolset.dll",
+      "known_items": 12422,
+      "verified_functions": 0,
+      "exact_instruction_bytes": 0,
+      "whole_file_identity": false
+    },
+    {
+      "name": "OEIShared.dll",
+      "known_items": 4986,
+      "verified_functions": 0,
+      "exact_instruction_bytes": 0,
+      "whole_file_identity": false
+    },
+    {
+      "name": "NWN2GDF.dll",
+      "known_items": 89,
+      "verified_functions": 0,
+      "exact_instruction_bytes": 0,
+      "whole_file_identity": false
+    }
+  ],
+  "published_source_functions": 522,
+  "published_source_snapshot_date": "2026-11-16",
+  "publication_scope": "Aggregate research progress only; source release is separately reviewed",
+  "verification_scope": "Complete unmasked function bytes; not whole-file identity or game completion"
+}
