@@ -1,11 +1,11 @@
 # NWN2 matching rebuild
 
 <!-- BEGIN daily research progress -->
-## **911 / 53,853 — VERIFIED RESEARCH PROGRESS**
+## **1,070 / 53,853 — VERIFIED RESEARCH PROGRESS**
 
-**14,662 exact instruction bytes · Whole-file identity: 0 / 6**
+**16,283 exact instruction bytes · Whole-file identity: 0 / 6**
 
-Daily snapshot: **2026-11-19**, synchronized with the
+Daily snapshot: **2026-11-21**, synchronized with the
 [website and RSS](https://nwn2reassembled.fyi/#reconstruction) at 00:00 UTC.
 These are research totals, not a rebuilt-game release or file-byte percentage.
 The separately reviewed source release below contains **522
