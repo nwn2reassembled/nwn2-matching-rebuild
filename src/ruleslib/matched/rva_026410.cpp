@@ -1,0 +1,5 @@
+class X {
+public:
+    int f();
+};
+int X::f() { return 0x200; }

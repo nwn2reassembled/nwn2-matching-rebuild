@@ -1,0 +1,1 @@
+struct MyStruct { char padding[44]; int value; }; class MyClass { public: static void __stdcall setValue(MyStruct* obj, int val); }; void MyClass::setValue(MyStruct* obj, int val) { obj->value = val; }

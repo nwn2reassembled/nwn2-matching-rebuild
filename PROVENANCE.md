@@ -62,3 +62,21 @@ Private logs, internal evidence, machine/network configuration, RAG data and
 unreviewed probe history are deliberately excluded. Public-source changes to the
 reference-root default and origin description remove private workstation details;
 the active private tools were not modified for this export.
+
+<!-- BEGIN rolling source publication -->
+## Rolling reviewed source publication
+
+The combined source index is authoritative for the current date, function count,
+source hashes and per-function verification links; the dated paragraphs above
+describe the initial releases, not a cap on the current publication.
+Daily publication adds unchanged, self-contained project C/C++ probes only after
+source-hash, pinned-binary, complete unmasked comparison and independent repeat
+comparison checks. New sources are screened for third-party notices, includes,
+embedded instruction payloads and private data; unknown forms stop publication
+for manual review. No license notices are stripped to pass this check.
+Receipts retain unaided/assisted drafting and repair provenance. Original game
+files, compiler files, object files, disassembly and operational logs remain excluded.
+This is instruction-informed, AI-assisted reconstruction, not clean-room source
+or a legal clearance. The existing MIT scope and third-party rights exclusions apply.
+Publication records historical verification; it does not compile again or add credit.
+<!-- END rolling source publication -->

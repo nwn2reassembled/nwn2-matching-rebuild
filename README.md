@@ -1,50 +1,38 @@
 # NWN2 matching rebuild
 
 <!-- BEGIN daily research progress -->
-## **1,157 / 53,853 — VERIFIED RESEARCH PROGRESS**
+## **1,203 / 53,853 — VERIFIED RESEARCH PROGRESS**
 
-**17,224 exact instruction bytes · Whole-file identity: 0 / 6**
+**17,676 exact instruction bytes · Whole-file identity: 0 / 6**
 
 Daily snapshot: **2026-11-22**, synchronized with the
 [website and RSS](https://nwn2reassembled.fyi/#reconstruction) at 00:00 UTC.
 These are research totals, not a rebuilt-game release or file-byte percentage.
-The separately reviewed source release below contains **522
-functions** (source snapshot: 2026-11-16); this
-daily heartbeat does not publish additional private source.
+The reviewed source release below contains **1,203
+functions** (source snapshot: 2026-11-22).
+Browse the [function sources and verification records](src/matched/index.json).
 [Machine-readable progress](docs/research-progress.json).
 <!-- END daily research progress -->
 
-## **522 / 53,853 — VERIFIED & PUBLISHED**
+<!-- BEGIN published source -->
+## **1,203 / 53,853 — VERIFIED & PUBLISHED**
 
-**Complete, unmasked function matches · 10,826 instruction bytes · Whole-file identity: 0 / 6**
+**Complete, unmasked function matches · 17,676 instruction bytes · Whole-file identity: 0 / 6**
 
-Frozen source snapshot: **16 November 2026**. The denominator includes **53,367
-known code routines and 486 resources** across six pinned files; it is not a
-percentage of rebuilt bytes or game completion.
-
-Research toward rebuilding six pinned classic GOG Neverwinter Nights 2 files
-byte for byte from readable source. This is not a source port, a patched game,
-or a playable replacement. No complete artifact is claimed to match.
-
-The current source snapshot publishes **522 verified functions in 520 source files**:
-**502 rules-library, 16 server and 4 client functions**.
-Browse the [combined binary/RVA-to-source index](src/matched/index.json),
+Source snapshot: **2026-11-22**. All **1,203 verified functions**
+are indexed in **1,201 unchanged C/C++ source files**.
+Browse the [binary/RVA-to-source index](src/matched/index.json),
 [rules-library source](src/ruleslib/matched), [server source](src/server/matched),
-and [client source](src/client/matched).
-The bounded Compose contributor worker is described below; validation limits are
-recorded in the startup guide.
+and [client source](src/client/matched). Each function links to a hash-only verification record.
 
-## Reconstruction progress
-
-**522 / 53,853 known items exactly matched** — published snapshot, 16 November 2026.
-These are complete function matches across an unweighted worklist, not a percentage
-of rebuilt file bytes. **Whole-file identity: 0 / 6.**
-
-See [the project website](https://nwn2reassembled.fyi/#reconstruction) for newer
-aggregate snapshots, refreshed once every 24 hours. This count covers the research
-project. This release includes source for all 522 functions in its frozen ledger;
-later private progress is not automatically published. The earlier README snapshot
-was 357 / 53,853.
+These are independent instruction-informed reconstruction probes, not a linked game,
+source port or playable release. Names/types are hypotheses. No complete artifact
+is claimed to match. See [provenance and licensing limits](PROVENANCE.md).
+Daily updates include reviewed sources and receipts from the same frozen ledger
+as the [website](https://nwn2reassembled.fyi/#reconstruction), once every 24 hours.
+Unknown source/evidence forms stop publication for manual review; counters must
+not silently advance without their corresponding sources.
+<!-- END published source -->
 
 ## How reconstruction works
 
@@ -87,7 +75,7 @@ verification; it does not claim a fresh compilation at publication time.
 - Three exploratory C implementations reconstructed from instruction-level
   analysis. They contain no embedded original instruction bytes. These particular
    C files are not a claim of pinned-compiler exactness or complete-game behavior.
-- 520 unchanged matching C/C++ source files with 522 per-function hash-only
+- Unchanged matching C/C++ source files with per-function hash-only
   verification records. These are independent compilation probes, not a combined
   DLL build; names/types are hypotheses. See the [source guide](src/ruleslib/matched/README.md).
 - OpenAI, Anthropic and DeepSeek drafting adapters, plus a source-and-hashes-only

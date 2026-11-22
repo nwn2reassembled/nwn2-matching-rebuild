@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x26860",
+  "size": 6,
+  "source": "src/ruleslib/matched/rva_026860.cpp",
+  "source_sha256": "286e97230188ae975ea890bd66908c21da4b6bc182875d58fb180f9b7ab38045",
+  "symbol": "?getValue@MyClass@@QAEHXZ",
+  "original_verification_receipt_sha256": "8b3f15e7745c791f0abe78d47ad61d113ece863660483d85437c7be67606013e",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 6,
+    "candidate_size": 6,
+    "reference_sha256": "7877c8a793414c61368dd74a471148d05cc5d73f4640a63e63c673a2a9f25b73",
+    "candidate_sha256": "7877c8a793414c61368dd74a471148d05cc5d73f4640a63e63c673a2a9f25b73",
+    "equal_bytes_at_same_offset": 6,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 6,
+    "candidate_size": 6,
+    "reference_sha256": "7877c8a793414c61368dd74a471148d05cc5d73f4640a63e63c673a2a9f25b73",
+    "candidate_sha256": "7877c8a793414c61368dd74a471148d05cc5d73f4640a63e63c673a2a9f25b73",
+    "equal_bytes_at_same_offset": 6,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "unaided_model_success": true,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

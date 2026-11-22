@@ -1,0 +1,1 @@
+class MyClass{public:virtual ~MyClass(){};void SetByte(unsigned char val);private:unsigned long*ptr;}; void MyClass::SetByte(unsigned char val){*(unsigned long*)((char*)ptr+0x100c8)=(unsigned long)val;}
