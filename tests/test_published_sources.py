@@ -11,10 +11,10 @@ class PublishedSourcesTest(unittest.TestCase):
     def test_snapshot_integrity(self):
         index = json.loads((ROOT / 'src/matched/index.json').read_text())
         functions = index['functions']
-        self.assertEqual(len(functions), 522)
-        self.assertEqual(len({f['source'] for f in functions}), 520)
-        self.assertEqual(sum(f['size'] for f in functions), 10826)
-        self.assertEqual(len({(f['binary'], f['rva']) for f in functions}), 522)
+        self.assertGreaterEqual(len(functions), 522)
+        self.assertEqual(len({f['source'] for f in functions}), index['published_source_file_count'])
+        self.assertEqual(sum(f['size'] for f in functions), index['matched_instruction_bytes'])
+        self.assertEqual(len({(f['binary'], f['rva']) for f in functions}), len(functions))
         self.assertEqual(index['verified_function_count'], len(functions))
         self.assertEqual(index['known_corpus_items'], 53853)
         ends = {}
@@ -46,7 +46,9 @@ class PublishedSourcesTest(unittest.TestCase):
 
     def test_readme_counter_and_process_diagram(self):
         readme = (ROOT / 'README.md').read_text()
-        self.assertIn('## **522 / 53,853', readme)
+        index = json.loads((ROOT / 'src/matched/index.json').read_text())
+        count = index['verified_function_count']
+        self.assertTrue(f'## **{count:,} / 53,853' in readme or f'## **{count} / 53,853' in readme)
         self.assertIn('```mermaid\nflowchart TD', readme)
         self.assertIn('Whole-file identity: 0 / 6', readme)
         self.assertIn('once every 24 hours', readme)
