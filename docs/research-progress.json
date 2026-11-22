@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-21",
+  "snapshot_date": "2026-11-22",
   "known_corpus_items": 53853,
-  "verified_functions": 1070,
-  "exact_instruction_bytes": 16283,
+  "verified_functions": 1157,
+  "exact_instruction_bytes": 17224,
   "whole_file_identities": 0,
   "target_files": 6,
   "files": [
     {
       "name": "nwn2main.exe",
       "known_items": 16797,
-      "verified_functions": 233,
-      "exact_instruction_bytes": 3000,
+      "verified_functions": 281,
+      "exact_instruction_bytes": 3756,
       "whole_file_identity": false
     },
     {
       "name": "nwn2server.exe",
       "known_items": 13855,
-      "verified_functions": 111,
-      "exact_instruction_bytes": 578,
+      "verified_functions": 130,
+      "exact_instruction_bytes": 643,
       "whole_file_identity": false
     },
     {
       "name": "NWN2RulesLib.dll",
       "known_items": 5704,
-      "verified_functions": 726,
-      "exact_instruction_bytes": 12705,
+      "verified_functions": 746,
+      "exact_instruction_bytes": 12825,
       "whole_file_identity": false
     },
     {
