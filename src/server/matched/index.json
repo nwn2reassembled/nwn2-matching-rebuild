@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-23",
   "known_corpus_items": 53853,
-  "verified_function_count": 140,
-  "published_source_file_count": 140,
-  "matched_instruction_bytes": 696,
+  "verified_function_count": 141,
+  "published_source_file_count": 141,
+  "matched_instruction_bytes": 700,
   "whole_file_identity": false,
   "functions": [
     {
@@ -1158,6 +1158,15 @@
       "source_sha256": "5936a211bc72152d94c257a6704122b7c48e56656732c281d22cd8fdcc1c651c",
       "symbol": "?getValue@MyClass@@QAEHXZ",
       "verification": "verification/server/rva_0dbf40.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xdece0",
+      "size": 4,
+      "source": "src/server/matched/rva_0dece0.cpp",
+      "source_sha256": "0e218396742cff65d0ba333799a578f0856cf8718b05bcba4a01c4b6dc70f530",
+      "symbol": "?getValue@LegacyObject@@QAEHXZ",
+      "verification": "verification/server/rva_0dece0.json"
     },
     {
       "binary": "nwn2server.exe",

@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-23",
   "known_corpus_items": 53853,
-  "verified_functions": 1203,
-  "exact_instruction_bytes": 17676,
+  "verified_functions": 1205,
+  "exact_instruction_bytes": 17687,
   "whole_file_identities": 0,
   "target_files": 6,
   "files": [
     {
       "name": "nwn2main.exe",
       "known_items": 16797,
-      "verified_functions": 306,
-      "exact_instruction_bytes": 4090,
+      "verified_functions": 307,
+      "exact_instruction_bytes": 4097,
       "whole_file_identity": false
     },
     {
       "name": "nwn2server.exe",
       "known_items": 13855,
-      "verified_functions": 140,
-      "exact_instruction_bytes": 696,
+      "verified_functions": 141,
+      "exact_instruction_bytes": 700,
       "whole_file_identity": false
     },
     {
@@ -50,8 +50,8 @@
       "whole_file_identity": false
     }
   ],
-  "published_source_functions": 1203,
-  "published_source_snapshot_date": "2026-11-22",
+  "published_source_functions": 1205,
+  "published_source_snapshot_date": "2026-11-23",
   "publication_scope": "Reviewed function source and hash-only verification records accompany research progress",
   "verification_scope": "Complete unmasked function bytes; not whole-file identity or game completion"
 }
