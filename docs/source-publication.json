@@ -1,19 +1,22 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-11-23",
-  "verified_functions": 1205,
+  "verified_functions": 1210,
   "source_review": "Unchanged project probes; no third-party notices, includes, assembly payloads or private data; see PROVENANCE.md",
   "files": {
-    "README.md": "e92f566df127ca8e20963c94a3025c7e035e73d758ab810662a353424b547132",
-    "docs/research-progress.json": "be0438a4c47b824c6ea5f125b44888001c8593a25235e33e1413422aafbd47d3",
-    "src/client/matched/index.json": "0101139305c4113671067b00160038d811e6ba21c7049fc210a1ffe8a2a1bf3e",
-    "src/client/matched/rva_356ea0.cpp": "ed881e18345b7bf3798192dfa9138bedca8ac5de1ee177f628bc2460ab46cbd1",
-    "src/matched/index.json": "2530a83a54588e35351195dbd9e998a5fc918617ae59b2044c4f844dcb33637e",
-    "src/ruleslib/matched/README.md": "1fd6d9807bbd40bd0112907a0a50d60e84d61bfed68ae0681e891c34058d907b",
-    "src/ruleslib/matched/index.json": "1a75c12759391b826b45d19f37920b09dd2c623893a945916122b093e6e76f8d",
-    "src/server/matched/index.json": "9449fe7e469f052404f0c987133f0249cdd55b97f14194f53819be2797513142",
-    "src/server/matched/rva_0dece0.cpp": "0e218396742cff65d0ba333799a578f0856cf8718b05bcba4a01c4b6dc70f530",
-    "verification/client/rva_356ea0.json": "20648968b0c5811acf2f4a452dbf57a88d2f8e23ca7f0424b90a0018b4e616c1",
-    "verification/server/rva_0dece0.json": "522dbedb870e1ae7f88c8fe3e8920fa4ce58aad85c2c1fd234c81b590e47b86a"
+    "README.md": "b9aa599f15b245e8a305aea356b86b584913b230a55318acf4cf84825f7f2332",
+    "docs/research-progress.json": "f7863db1a09a5c9b4d198635ef671a21477aada30a8e01e8496e14df04fe49ac",
+    "src/client/matched/index.json": "fde436f4fec4ccb82527e68a87b84d1805a03211277a15a9374831c2ecd69d68",
+    "src/client/matched/rva_0f1ef0.cpp": "e23370287d36b38bc1b919f244bc8488facccbe5aa1b1b1110947bd1d1e6ca7b",
+    "src/client/matched/rva_2cc230.cpp": "31b7ed5ab938399e172c04092344c1ec9ef5d8a7b5100d37e820be76d85c4e15",
+    "src/client/matched/rva_2cc380.cpp": "5d5279f8b0b1bf582f29475eed1c2e23b91866e2e46fd868bed222f8f78b6d09",
+    "src/client/matched/rva_34cea0.cpp": "5f3c8f01cae8df61781578f62c87b8a58ca03f21e8917c9153d7f41d528c9d6c",
+    "src/client/matched/rva_43c850.cpp": "0ba7c05f9a6ef439756ff1cec1d0a780704742a696e09132fc874b611cd6f0b4",
+    "src/matched/index.json": "e0ea30a731d37ae88d434561278449152d46f602bdab08d9c61dacc69ecb2ddd",
+    "verification/client/rva_0f1ef0.json": "f9d2fec387b70cefa56c49e7cef20d4dd9aff13f3caca8b8def5b4cb5c5a7041",
+    "verification/client/rva_2cc230.json": "0e7cca0e2c496bf7d4592b102dc647603a4b4a57b133b54b0c496ce0761f1442",
+    "verification/client/rva_2cc380.json": "abafdb0cf050f83231690b54ed998456c718a140360666b14b1e272731654767",
+    "verification/client/rva_34cea0.json": "171ed542877dfc8badf8750d2223c32717a1e642e28da51f5ecbb14ac4fccf71",
+    "verification/client/rva_43c850.json": "0372af038022f18182ace062330f60657a03f907cc86ff437973161fedc82f1f"
   }
 }
