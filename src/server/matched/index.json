@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-23",
+  "snapshot_date": "2026-11-24",
   "known_corpus_items": 53853,
-  "verified_function_count": 141,
-  "published_source_file_count": 141,
-  "matched_instruction_bytes": 700,
+  "verified_function_count": 146,
+  "published_source_file_count": 146,
+  "matched_instruction_bytes": 719,
   "whole_file_identity": false,
   "functions": [
     {
@@ -1167,6 +1167,51 @@
       "source_sha256": "0e218396742cff65d0ba333799a578f0856cf8718b05bcba4a01c4b6dc70f530",
       "symbol": "?getValue@LegacyObject@@QAEHXZ",
       "verification": "verification/server/rva_0dece0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xe00a0",
+      "size": 4,
+      "source": "src/server/matched/rva_0e00a0.cpp",
+      "source_sha256": "5798e1a1e9663fbf8b0932c63cca3569ca3ad19a2ec10921a98bc5c385048908",
+      "symbol": "?getPtr@MyClass@@QAEPAXXZ",
+      "verification": "verification/server/rva_0e00a0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xe03e0",
+      "size": 1,
+      "source": "src/server/matched/rva_0e03e0.cpp",
+      "source_sha256": "384be4e13d4dc39ad8f4cbd8e7906f1f1d40573f944c8136629f74f2a75b2414",
+      "symbol": "?myFunc@MyClass@@QAEXXZ",
+      "verification": "verification/server/rva_0e03e0.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xe4780",
+      "size": 7,
+      "source": "src/server/matched/rva_0e4780.cpp",
+      "source_sha256": "44c5ec30d79231f043691d5b14c8c6ae2951f564b55831e8a68ff77fc9726231",
+      "symbol": "?set@MyClass@@QAEXXZ",
+      "verification": "verification/server/rva_0e4780.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xe5770",
+      "size": 4,
+      "source": "src/server/matched/rva_0e5770.cpp",
+      "source_sha256": "9a6f17120fe38d878a3769af84ba74444f008c2377206344734d9f4a1ebe5d46",
+      "symbol": "?getValue@Legacy@@QBEHXZ",
+      "verification": "verification/server/rva_0e5770.json"
+    },
+    {
+      "binary": "nwn2server.exe",
+      "rva": "0xea4c0",
+      "size": 3,
+      "source": "src/server/matched/rva_0ea4c0.cpp",
+      "source_sha256": "cf5077b0cbfc8306210ff3401275f76193d401030853ed77921b87f9185debec",
+      "symbol": "?get_self@MyClass@@QAEPAU1@XZ",
+      "verification": "verification/server/rva_0ea4c0.json"
     },
     {
       "binary": "nwn2server.exe",

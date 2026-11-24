@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-23",
+  "snapshot_date": "2026-11-24",
   "known_corpus_items": 53853,
-  "verified_function_count": 757,
-  "published_source_file_count": 755,
-  "matched_instruction_bytes": 12890,
+  "verified_function_count": 761,
+  "published_source_file_count": 759,
+  "matched_instruction_bytes": 12914,
   "whole_file_identity": false,
   "functions": [
     {
@@ -2949,6 +2949,42 @@
       "source_sha256": "423d76469f6de7d32f243a4f1e76dede766e48681886e74995c163a600439f43",
       "symbol": "?bar@Foo@@SAHXZ",
       "verification": "verification/ruleslib/rva_026e40.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x26e70",
+      "size": 6,
+      "source": "src/ruleslib/matched/rva_026e70.cpp",
+      "source_sha256": "9ac4e9d5ff91d55f38d2daad3992aa12cbb0d26b097780afb4ab29082a3919be",
+      "symbol": "?getValue@Legacy@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_026e70.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x26e80",
+      "size": 6,
+      "source": "src/ruleslib/matched/rva_026e80.cpp",
+      "source_sha256": "6998f20751395508f7c53cf65909e8452d49f8ee16876634f1a59ea8e7a73513",
+      "symbol": "?getValue@Legacy@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_026e80.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x26ef0",
+      "size": 6,
+      "source": "src/ruleslib/matched/rva_026ef0.cpp",
+      "source_sha256": "a70b7e52094cc73f9bf5fb933bd115d6e0ed4479dca4b0448510853606eb2a58",
+      "symbol": "?getValue@MyClass@@QAEHXZ",
+      "verification": "verification/ruleslib/rva_026ef0.json"
+    },
+    {
+      "binary": "NWN2RulesLib.dll",
+      "rva": "0x26f00",
+      "size": 6,
+      "source": "src/ruleslib/matched/rva_026f00.cpp",
+      "source_sha256": "54b252723aa9cf1297a25cc9bca64becf5e5404dcf8319ea904d351eba94969f",
+      "symbol": "?get@Foo@@SAHXZ",
+      "verification": "verification/ruleslib/rva_026f00.json"
     },
     {
       "binary": "NWN2RulesLib.dll",

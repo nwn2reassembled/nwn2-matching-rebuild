@@ -1,8 +1,8 @@
 # Matching source snapshot
 
-**757 functions · 755 source files · 12,890 exact instruction bytes**
+**761 functions · 759 source files · 12,914 exact instruction bytes**
 
-Frozen 23 November 2026; all targets here are in the pinned `NWN2RulesLib.dll`.
+Frozen 24 November 2026; all targets here are in the pinned `NWN2RulesLib.dll`.
 The [combined index](../../matched/index.json) also includes server/client targets.
 [`index.json`](index.json) maps each target RVA to source, emitted symbol, source
 SHA-256 and a [verification record](../../../verification/ruleslib).

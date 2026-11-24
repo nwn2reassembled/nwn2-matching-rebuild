@@ -1,26 +1,26 @@
 # NWN2 matching rebuild
 
 <!-- BEGIN daily research progress -->
-## **1,210 / 53,853 — VERIFIED RESEARCH PROGRESS**
+## **1,233 / 53,853 — VERIFIED RESEARCH PROGRESS**
 
-**17,734 exact instruction bytes · Whole-file identity: 0 / 6**
+**17,945 exact instruction bytes · Whole-file identity: 0 / 6**
 
-Daily snapshot: **2026-11-23**, synchronized with the
+Daily snapshot: **2026-11-24**, synchronized with the
 [website and RSS](https://nwn2reassembled.fyi/#reconstruction) at 00:00 UTC.
 These are research totals, not a rebuilt-game release or file-byte percentage.
-The reviewed source release below contains **1,210
-functions** (source snapshot: 2026-11-23).
+The reviewed source release below contains **1,233
+functions** (source snapshot: 2026-11-24).
 Browse the [function sources and verification records](src/matched/index.json).
 [Machine-readable progress](docs/research-progress.json).
 <!-- END daily research progress -->
 
 <!-- BEGIN published source -->
-## **1,210 / 53,853 — VERIFIED & PUBLISHED**
+## **1,233 / 53,853 — VERIFIED & PUBLISHED**
 
-**Complete, unmasked function matches · 17,734 instruction bytes · Whole-file identity: 0 / 6**
+**Complete, unmasked function matches · 17,945 instruction bytes · Whole-file identity: 0 / 6**
 
-Source snapshot: **2026-11-23**. All **1,210 verified functions**
-are indexed in **1,208 unchanged C/C++ source files**.
+Source snapshot: **2026-11-24**. All **1,233 verified functions**
+are indexed in **1,231 unchanged C/C++ source files**.
 Browse the [binary/RVA-to-source index](src/matched/index.json),
 [rules-library source](src/ruleslib/matched), [server source](src/server/matched),
 and [client source](src/client/matched). Each function links to a hash-only verification record.
