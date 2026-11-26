@@ -1,0 +1,4 @@
+bool IsEnabled()
+{
+    return true;
+}

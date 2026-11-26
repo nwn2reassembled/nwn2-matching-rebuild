@@ -1,0 +1,4 @@
+bool IsSomething()
+{
+    return false;
+}

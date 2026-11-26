@@ -1,0 +1,4 @@
+bool IsFeatureEnabled()
+{
+    return false;
+}

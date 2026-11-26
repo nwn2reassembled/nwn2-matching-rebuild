@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "binary": "nwn2server.exe",
+  "binary_sha256": "e2e601be2f0626b42bb01896b35d428cfe66eb2b223fd39ed2fd1a49e4f12e95",
+  "rva": "0x149fd0",
+  "size": 9,
+  "source": "src/server/matched/rva_149fd0.cpp",
+  "source_sha256": "3059bd4b843acd00fb767c73f84482b8491007cfb232ffe3d1eada0d96e712a0",
+  "symbol": "?get@Foo@@QBEHXZ",
+  "original_verification_receipt_sha256": "8267d242c833d1f7829db58d9d0a1ec10618550156955741259e32ce2be06adf",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 9,
+    "candidate_size": 9,
+    "reference_sha256": "a35c6b1b82534eaf90b3dbe6df2dfe8df66975aef7444f2b8a7a17a1e82f2311",
+    "candidate_sha256": "a35c6b1b82534eaf90b3dbe6df2dfe8df66975aef7444f2b8a7a17a1e82f2311",
+    "equal_bytes_at_same_offset": 9,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 9,
+    "candidate_size": 9,
+    "reference_sha256": "a35c6b1b82534eaf90b3dbe6df2dfe8df66975aef7444f2b8a7a17a1e82f2311",
+    "candidate_sha256": "a35c6b1b82534eaf90b3dbe6df2dfe8df66975aef7444f2b8a7a17a1e82f2311",
+    "equal_bytes_at_same_offset": 9,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "unaided_model_success": true,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

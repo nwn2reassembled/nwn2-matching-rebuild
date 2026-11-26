@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-24",
-  "known_corpus_items": 53853,
-  "verified_functions": 1233,
-  "exact_instruction_bytes": 17945,
+  "snapshot_date": "2026-11-26",
+  "known_corpus_items": 53901,
+  "verified_functions": 4826,
+  "exact_instruction_bytes": 66833,
   "whole_file_identities": 0,
   "target_files": 6,
   "files": [
     {
       "name": "nwn2main.exe",
       "known_items": 16797,
-      "verified_functions": 326,
-      "exact_instruction_bytes": 4312,
+      "verified_functions": 869,
+      "exact_instruction_bytes": 22776,
       "whole_file_identity": false
     },
     {
       "name": "nwn2server.exe",
-      "known_items": 13855,
-      "verified_functions": 146,
-      "exact_instruction_bytes": 719,
+      "known_items": 13903,
+      "verified_functions": 794,
+      "exact_instruction_bytes": 15157,
       "whole_file_identity": false
     },
     {
       "name": "NWN2RulesLib.dll",
       "known_items": 5704,
-      "verified_functions": 761,
-      "exact_instruction_bytes": 12914,
+      "verified_functions": 3163,
+      "exact_instruction_bytes": 28900,
       "whole_file_identity": false
     },
     {
@@ -50,8 +50,8 @@
       "whole_file_identity": false
     }
   ],
-  "published_source_functions": 1233,
-  "published_source_snapshot_date": "2026-11-24",
+  "published_source_functions": 4826,
+  "published_source_snapshot_date": "2026-11-26",
   "publication_scope": "Reviewed function source and hash-only verification records accompany research progress",
   "verification_scope": "Complete unmasked function bytes; not whole-file identity or game completion"
 }

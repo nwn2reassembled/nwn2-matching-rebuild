@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "binary": "nwn2server.exe",
+  "binary_sha256": "e2e601be2f0626b42bb01896b35d428cfe66eb2b223fd39ed2fd1a49e4f12e95",
+  "rva": "0x153f40",
+  "size": 12,
+  "source": "src/server/matched/rva_153f40.cpp",
+  "source_sha256": "23694f89a9536d82194b3f07ecee983ebf7803f9b2d92c0761830bfd9e3aef08",
+  "symbol": "?getAt@AdjacentRecords@@QAEPAUAdjacentRecord@@I@Z",
+  "original_verification_receipt_sha256": "87ab9f94cea39a1f5c71999822b2f0269895e70cdb35f0d9191228dc723d30ca",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 12,
+    "candidate_size": 12,
+    "reference_sha256": "2ffc4bd95943f93a322dd476bc676b4233bbe2b4634f50769e196a37f388cfa4",
+    "candidate_sha256": "2ffc4bd95943f93a322dd476bc676b4233bbe2b4634f50769e196a37f388cfa4",
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 12,
+    "candidate_size": 12,
+    "reference_sha256": "2ffc4bd95943f93a322dd476bc676b4233bbe2b4634f50769e196a37f388cfa4",
+    "candidate_sha256": "2ffc4bd95943f93a322dd476bc676b4233bbe2b4634f50769e196a37f388cfa4",
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison; independently rechecked saved native artifacts",
+  "object_relocations": "Resolved only in reviewed native context; no masking or callee credit",
+  "reference_relocations": [],
+  "provenance": {
+    "assisted_context": true,
+    "unaided_model_success": false,
+    "verification": "saved artifacts independently rechecked; no compilation or linking",
+    "dependency_implementation_credit": 0,
+    "layout_scaffolding_credit": 0
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

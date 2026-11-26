@@ -1,0 +1,1 @@
+struct Vec3 { float x; float y; float z; }; struct Blob { float a; float b; float c; float d; float e; float f; Blob& Set(const Vec3& u, const Vec3& v); }; Blob& Blob::Set(const Vec3& u, const Vec3& v) { a = u.x; b = u.y; c = u.z; d = v.x; e = v.y; f = v.z; return *this; }

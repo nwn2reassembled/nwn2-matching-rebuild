@@ -1,0 +1,3 @@
+void Stub_Ret()
+{
+}

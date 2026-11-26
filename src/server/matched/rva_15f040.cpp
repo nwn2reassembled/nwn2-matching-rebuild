@@ -1,0 +1,53 @@
+struct Foo {
+    int m00;
+    int m01;
+    int m02;
+    int m03;
+    int m04;
+    int m05;
+    int m06;
+    int m07;
+    int m08;
+    int m09;
+    int m10;
+    int m11;
+    int m12;
+    int m13;
+    int m14;
+    int m15;
+    int m16;
+    int m17;
+    int m18;
+    int m19;
+    int m20;
+    char m_flag;
+    int m_value;
+    Foo* Clear();
+};
+
+Foo* Foo::Clear() {
+    m00 = 0;
+    m01 = 0;
+    m02 = 0;
+    m03 = 0;
+    m04 = 0;
+    m05 = 0;
+    m06 = 0;
+    m07 = 0;
+    m08 = 0;
+    m09 = 0;
+    m10 = 0;
+    m11 = 0;
+    m12 = 0;
+    m13 = 0;
+    m14 = 0;
+    m15 = 0;
+    m16 = 0;
+    m17 = 0;
+    m18 = 0;
+    m19 = 0;
+    m20 = 0;
+    m_flag = 0;
+    m_value = 0;
+    return this;
+}

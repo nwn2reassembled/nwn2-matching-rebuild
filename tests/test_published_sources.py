@@ -16,7 +16,9 @@ class PublishedSourcesTest(unittest.TestCase):
         self.assertEqual(sum(f['size'] for f in functions), index['matched_instruction_bytes'])
         self.assertEqual(len({(f['binary'], f['rva']) for f in functions}), len(functions))
         self.assertEqual(index['verified_function_count'], len(functions))
-        self.assertEqual(index['known_corpus_items'], 53853)
+        progress = json.loads((ROOT / 'docs/research-progress.json').read_text())
+        self.assertEqual(index['known_corpus_items'], progress['known_corpus_items'])
+        self.assertGreaterEqual(index['known_corpus_items'], 53853)
         ends = {}
         for f in functions:
             self.assertGreaterEqual(int(f['rva'], 0), ends.get(f['binary'], 0))
@@ -48,7 +50,7 @@ class PublishedSourcesTest(unittest.TestCase):
         readme = (ROOT / 'README.md').read_text()
         index = json.loads((ROOT / 'src/matched/index.json').read_text())
         count = index['verified_function_count']
-        self.assertTrue(f'## **{count:,} / 53,853' in readme or f'## **{count} / 53,853' in readme)
+        self.assertIn(f"## **{count:,} / {index['known_corpus_items']:,}", readme)
         self.assertIn('```mermaid\nflowchart TD', readme)
         self.assertIn('Whole-file identity: 0 / 6', readme)
         self.assertIn('once every 24 hours', readme)

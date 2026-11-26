@@ -1,0 +1,4 @@
+bool SomeFlagIsSet()
+{
+    return true;
+}

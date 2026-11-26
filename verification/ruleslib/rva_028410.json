@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "binary": "NWN2RulesLib.dll",
+  "binary_sha256": "3d92e97dfb2bec437b90bb0f2fa90b03a8f9c79d883eadbb46924116d8c9269d",
+  "rva": "0x28410",
+  "size": 6,
+  "source": "src/ruleslib/matched/rva_028410.cpp",
+  "source_sha256": "b4f3ae12f65e0ef7b78f24cc8ad398a1e76aa7d576a5e49779d442c36f82f9d8",
+  "symbol": "?GetRulesSize@@YAHXZ",
+  "original_verification_receipt_sha256": "032ef15ea561c17a8872c67f119ce33684d13318d835800579ebad0d2ed40613",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 6,
+    "candidate_size": 6,
+    "reference_sha256": "e65e81b4ab32e2792fa669141a25eb404b163f4939a37f0c1b939f7da3c9721a",
+    "candidate_sha256": "e65e81b4ab32e2792fa669141a25eb404b163f4939a37f0c1b939f7da3c9721a",
+    "equal_bytes_at_same_offset": 6,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 6,
+    "candidate_size": 6,
+    "reference_sha256": "e65e81b4ab32e2792fa669141a25eb404b163f4939a37f0c1b939f7da3c9721a",
+    "candidate_sha256": "e65e81b4ab32e2792fa669141a25eb404b163f4939a37f0c1b939f7da3c9721a",
+    "equal_bytes_at_same_offset": 6,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "unaided_model_success": false,
+    "assisted_context": true,
+    "drafting_model": "opencode-go/glm-5.3-flash",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}

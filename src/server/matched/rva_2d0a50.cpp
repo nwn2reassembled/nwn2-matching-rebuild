@@ -1,0 +1,4 @@
+void Noop(void)
+{
+    return;
+}

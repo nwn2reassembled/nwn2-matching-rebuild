@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "binary": "nwn2server.exe",
+  "binary_sha256": "e2e601be2f0626b42bb01896b35d428cfe66eb2b223fd39ed2fd1a49e4f12e95",
+  "rva": "0x1d9eb0",
+  "size": 19,
+  "source": "src/server/matched/rva_1d9eb0.cpp",
+  "source_sha256": "ed20bb533b12388da0644daea599972976127b02b53075958629b8fce0e8302c",
+  "symbol": "?test@Legacy@@QBEHI@Z",
+  "original_verification_receipt_sha256": "eb2e7e4f0f4bd6e824d8a17fa8d86e37be366a8c781a5b0081267a4d4230f0af",
+  "compiler_version": "14.00.50727.762 (pinned VC80 under Wine)",
+  "compiler_arguments": [
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe.obj",
+      "probe.cpp"
+    ],
+    [
+      "/c",
+      "/O2",
+      "/GS-",
+      "/GR-",
+      "/Zl",
+      "/Gy",
+      "/Foprobe_repeat.obj",
+      "probe.cpp"
+    ]
+  ],
+  "normalization": "none",
+  "reference_comparison": {
+    "exact": true,
+    "reference_size": 19,
+    "candidate_size": 19,
+    "reference_sha256": "28c1c4484e63398a3deb3a0e2b5e5f33355c3e5f3839b6363fe277c9750f27c3",
+    "candidate_sha256": "28c1c4484e63398a3deb3a0e2b5e5f33355c3e5f3839b6363fe277c9750f27c3",
+    "equal_bytes_at_same_offset": 19,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "repeat_function_comparison": {
+    "exact": true,
+    "reference_size": 19,
+    "candidate_size": 19,
+    "reference_sha256": "28c1c4484e63398a3deb3a0e2b5e5f33355c3e5f3839b6363fe277c9750f27c3",
+    "candidate_sha256": "28c1c4484e63398a3deb3a0e2b5e5f33355c3e5f3839b6363fe277c9750f27c3",
+    "equal_bytes_at_same_offset": 19,
+    "different_bytes_including_missing": 0,
+    "first_mismatch": null
+  },
+  "comparison_context": "complete unmasked function comparison",
+  "object_relocations": [],
+  "reference_relocations": [],
+  "provenance": {
+    "parent_repair_attempts": 0,
+    "unaided_model_success": true,
+    "assisted_context": false,
+    "drafting_model": "gpt-oss:20b",
+    "repair_scope": "none",
+    "verdict": "exact-model-source"
+  },
+  "behavioral_claim": false,
+  "whole_file_identity": false,
+  "publication_source_edited": false
+}
